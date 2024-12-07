@@ -1,0 +1,68 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "control_behavior": {
+                    "sections": {
+                        "sections": [
+                            {
+                                "filters": [
+                                    {
+                                        "comparator": "=",
+                                        "count": 1,
+                                        "index": 1,
+                                        "name": "signal-0",
+                                        "quality": "normal",
+                                        "type": "virtual"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 1,
+                                        "index": 2,
+                                        "name": "signal-C",
+                                        "quality": "normal",
+                                        "type": "virtual"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 1,
+                                        "index": 3,
+                                        "name": "signal-Z",
+                                        "quality": "normal",
+                                        "type": "virtual"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 1,
+                                        "index": 4,
+                                        "name": "signal-dot",
+                                        "quality": "normal",
+                                        "type": "virtual"
+                                    }
+                                ],
+                                "index": 1
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 1,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 4.5,
+                    "y": 23.5
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "signal-info",
+                    "type": "virtual"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "version": 562949954928640
+    }
+}
