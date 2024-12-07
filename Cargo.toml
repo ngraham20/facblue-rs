@@ -1,0 +1,9 @@
+[package]
+name = "facblue-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+csv = "1.3.1"
+flate2 = "1.0.35"
