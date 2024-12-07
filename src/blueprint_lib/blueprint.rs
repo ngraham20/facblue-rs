@@ -7,7 +7,7 @@ pub struct Blueprint {
     pub label: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub label_color: Option<Color>,
-    pub entities: Vec<Entity>,
+    pub entities: Option<Vec<Entity>>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub tiles: Option<Vec<Tile>>,
     pub icons: Vec<Icon>,
@@ -25,6 +25,32 @@ pub struct Blueprint {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub position_relative_to_grid: Option<Position>,
     pub version: usize,
+}
+
+impl Blueprint {
+    pub fn new(item: String, icons: Vec<Icon>, version: usize) -> Self {
+        Blueprint {
+            item,
+            entities: None,
+            icons,
+            version,
+            label: None,
+            label_color: None,
+            tiles: None,
+            schedules: None,
+            description: None,
+            snap_to_grid: None,
+            absolute_snapping: None,
+            position_relative_to_grid: None,
+        }
+    }
+
+    pub fn with_entities(self, entities: Vec<Entity>) -> Self {
+        Self {
+            entities: Some(entities),
+            ..self
+        }
+    }
 }
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
@@ -96,6 +122,22 @@ pub struct Position {
     pub y: f32,
 }
 
+impl Position {
+    pub fn new() -> Self {
+        Position {
+            x: 0f32,
+            y: 0f32,
+        }
+    }
+    
+    pub fn from_xy(x: f32, y: f32) -> Self {
+        Position {
+            x,
+            y,
+        }
+    }
+}
+
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct Icon {
     pub index: usize,
@@ -110,6 +152,15 @@ pub struct Signal {
     pub signal_type: Option<SignalType>,
 }
 
+impl Signal {
+    pub fn new(name: String) -> Self {
+        Signal {
+            name,
+            signal_type: None,
+        }
+    }
+}
+
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct ControlBehavior {
     pub sections: Sections,
@@ -118,6 +169,14 @@ pub struct ControlBehavior {
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct Sections {
     pub sections: Vec<Section>
+}
+
+impl Sections {
+    pub fn new() -> Self {
+        Sections {
+            sections: Vec::new(),
+        }
+    }
 }
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
@@ -130,6 +189,25 @@ pub struct Section {
     pub multiplier: Option<usize>,
     #[serde(default = "section_active_default")]
     pub active: bool,
+}
+
+impl Section {
+    pub fn new(index: u8, filters: Vec<LogisticFilter>) -> Self {
+        Section {
+            index,
+            filters,
+            active: true,
+            group: None,
+            multiplier: None,
+        }
+    }
+
+    pub fn deactivate(self) -> Self {
+        Section {
+            active: false,
+            ..self
+        }
+    }
 }
 
 fn section_active_default() -> bool {
@@ -152,6 +230,30 @@ pub struct LogisticFilter {
     pub minimum_delivery_count: Option<usize>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub import_from: Option<String>,
+}
+
+impl LogisticFilter {
+    pub fn new(index: u16, name: String, count: usize, quality: Quality, comparator: Comparator) -> Self {
+        Self {
+            index,
+            name,
+            quality,
+            comparator,
+            count,
+            signal_type: None,
+            max_count: None,
+            minimum_delivery_count: None,
+            import_from: None,
+
+        }
+    }
+
+    pub fn with_signal_type(self, signal_type: SignalType) -> Self {
+        Self {
+            signal_type: Some(signal_type),
+            ..self
+        }
+    }
 }
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
