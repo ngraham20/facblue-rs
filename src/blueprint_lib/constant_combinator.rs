@@ -99,7 +99,7 @@ impl Sections {
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct Section {
-    pub index: u8,
+    index: u8,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub group: Option<String>,
     pub filters: Vec<LogisticFilter>,
@@ -141,7 +141,7 @@ fn section_active_default() -> bool {
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct LogisticFilter {
-    pub index: u16,
+    index: u16,
     #[serde(rename = "type")]
     #[serde(skip_serializing_if = "Option::is_none")]
     pub signal_type: Option<SignalType>,
