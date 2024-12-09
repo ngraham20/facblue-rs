@@ -1,0 +1,155 @@
+{
+    "blueprint_book": {
+        "active_index": 0,
+        "blueprints": [
+            {
+                "blueprint": {
+                    "entities": [
+                        {
+                            "control_behavior": {
+                                "sections": {
+                                    "sections": [
+                                        {
+                                            "filters": [
+                                                {
+                                                    "comparator": "=",
+                                                    "count": 1,
+                                                    "index": 1,
+                                                    "name": "signal-red",
+                                                    "quality": "normal",
+                                                    "type": "virtual"
+                                                },
+                                                {
+                                                    "comparator": "=",
+                                                    "count": 1,
+                                                    "index": 2,
+                                                    "name": "signal-green",
+                                                    "quality": "normal",
+                                                    "type": "virtual"
+                                                },
+                                                {
+                                                    "comparator": "=",
+                                                    "count": 1,
+                                                    "index": 3,
+                                                    "name": "signal-blue",
+                                                    "quality": "normal",
+                                                    "type": "virtual"
+                                                },
+                                                {
+                                                    "comparator": "=",
+                                                    "count": 1,
+                                                    "index": 4,
+                                                    "name": "bulk-inserter",
+                                                    "quality": "normal"
+                                                }
+                                            ],
+                                            "index": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            "entity_number": 1,
+                            "name": "constant-combinator",
+                            "position": {
+                                "x": -26.5,
+                                "y": 21.5
+                            }
+                        }
+                    ],
+                    "icons": [
+                        {
+                            "index": 1,
+                            "signal": {
+                                "name": "constant-combinator"
+                            }
+                        }
+                    ],
+                    "item": "blueprint",
+                    "version": 562949954928640
+                },
+                "index": 0
+            },
+            {
+                "blueprint_book": {
+                    "active_index": 0,
+                    "blueprints": [
+                        {
+                            "blueprint": {
+                                "entities": [
+                                    {
+                                        "control_behavior": {
+                                            "sections": {
+                                                "sections": [
+                                                    {
+                                                        "filters": [
+                                                            {
+                                                                "comparator": "=",
+                                                                "count": 1,
+                                                                "index": 1,
+                                                                "name": "signal-red",
+                                                                "quality": "normal",
+                                                                "type": "virtual"
+                                                            },
+                                                            {
+                                                                "comparator": "=",
+                                                                "count": 1,
+                                                                "index": 2,
+                                                                "name": "signal-green",
+                                                                "quality": "normal",
+                                                                "type": "virtual"
+                                                            },
+                                                            {
+                                                                "comparator": "=",
+                                                                "count": 1,
+                                                                "index": 3,
+                                                                "name": "signal-blue",
+                                                                "quality": "normal",
+                                                                "type": "virtual"
+                                                            },
+                                                            {
+                                                                "comparator": "=",
+                                                                "count": 1,
+                                                                "index": 4,
+                                                                "name": "bulk-inserter",
+                                                                "quality": "normal"
+                                                            }
+                                                        ],
+                                                        "index": 1
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "entity_number": 1,
+                                        "name": "constant-combinator",
+                                        "position": {
+                                            "x": -26.5,
+                                            "y": 21.5
+                                        }
+                                    }
+                                ],
+                                "icons": [
+                                    {
+                                        "index": 1,
+                                        "signal": {
+                                            "name": "constant-combinator"
+                                        }
+                                    }
+                                ],
+                                "item": "blueprint",
+                                "version": 562949954928640
+                            },
+                            "index": 0
+                        }
+                    ],
+                    "item": "blueprint-book",
+                    "label": "inner blueprint book",
+                    "version": 562949954928640
+                },
+                "index": 1
+            }
+        ],
+        "item": "blueprint-book",
+        "label": "Test Blueprint Book",
+        "version": 562949954928640
+    }
+}
