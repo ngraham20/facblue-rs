@@ -18,14 +18,13 @@ fn main() -> Result<(), Error> {
     let args =Args::parse();
     if let Some(path) = args.file {
         let blueprint = fs::read_to_string(path).context("Failed to read file")?;
-        let bp = BlueprintMeta::decode(blueprint)?;
+        let bp = BlueprintMeta::from_blueprint_string(blueprint)?;
         println!("{:?}", bp);
     }
     if let Some(path) = args.json {
         let json = fs::read_to_string(path).context("Failed to read file")?;
-        let bp = BlueprintMeta::parse_json(json)?;
-        println!("{:?}\n", bp);
-        println!("{}", BlueprintMeta::make_json(&bp)?);
+        let bp = BlueprintMeta::unmarshal_json(json)?;
+        println!("{:?}", bp);
     }
     Ok(())
 }

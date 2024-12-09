@@ -5,43 +5,62 @@ use anyhow::{Context, Error};
 use base64::{engine::general_purpose, Engine};
 use flate2::{read::ZlibDecoder, write::ZlibEncoder, Compression};
 use serde::{Deserialize, Serialize};
-
 mod blueprint;
 use blueprint::*;
+
+mod constant_combinator;
+use constant_combinator::*;
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 #[serde(untagged)]
 pub enum BlueprintMeta {
-    Book{blueprint_book: BlueprintBook, index: Option<usize>},
-    Blueprint{blueprint: Blueprint, index: Option<usize>}
+    Book{
+        blueprint_book: BlueprintBook,
+
+        #[serde(skip_serializing_if = "Option::is_none")]
+        index: Option<usize>
+    },
+    Blueprint{
+        blueprint: Blueprint,
+
+        #[serde(skip_serializing_if = "Option::is_none")]
+        index: Option<usize>
+    }
 }
 
 impl BlueprintMeta {
-    pub fn decode(bp_string: String) -> Result<Self, Error> {
+    fn decode(bp_string: String) -> Result<String, Error> {
         let bytes = general_purpose::STANDARD.decode(&bp_string[1..])?;
-        let mut deflater = ZlibDecoder::new(&bytes[..]);
         let mut s = String::new();
+        let mut deflater = ZlibDecoder::new(&bytes[..]);
         deflater.read_to_string(&mut s).context("failed to read string")?;
-        println!("{}\n", s);
-        Ok(serde_json::from_str(&s).context("Failed to parse JSON")?)
+        Ok(s)
     }
 
-    pub fn parse_json(json_string: String) -> Result<Self, Error> {
-        Ok(serde_json::from_str(&json_string).context("Failed to parse JSON")?)
+    pub fn from_blueprint_string(bp_string: String) -> Result<Self, Error> {
+        let json_string = Self::decode(bp_string)?;
+        Ok(Self::unmarshal_json(json_string)?)
     }
 
-    pub fn make_json(bp: &Self) -> Result<String, Error> {
-        Ok(serde_json::to_string(&bp)?)
+    pub fn to_blueprint_string(&self) -> Result<String, Error> {
+        let json_string = Self::marshal_json(&self)?;
+        Ok(Self::encode(json_string)?)
     }
 
-    pub fn encode(bp: &Self) -> Result<String, Error> {
-        let json_string = serde_json::to_string(&bp)?;
-        println!("{}", json_string);
+    fn encode(json_string: String) -> Result<String, Error> {
         let mut encoder = ZlibEncoder::new(Vec::new(), Compression::default());
         encoder.write_all(json_string.as_bytes())?;
         let compressed = encoder.finish()?;
         let bp_string = general_purpose::STANDARD.encode(compressed);
         Ok(format!("0{}", bp_string))
+    }
+
+    pub fn unmarshal_json(json_string: String) -> Result<Self, Error> {
+        Ok(serde_json::from_str(&json_string).context("Failed to parse JSON")?)
+    }
+
+    pub fn marshal_json(bp: &Self) -> Result<String, Error> {
+        Ok(serde_json::to_string(&bp)?)
     }
 }
 
@@ -72,7 +91,7 @@ mod tests {
                 }
             }], 562949954928640)
             .with_entities(vec![
-                Entity {
+                Entity::ConstantCombinator( ConstantCombinator {
                     control_behavior: ControlBehavior {
                         sections: Sections {
                             sections: vec![
@@ -92,10 +111,10 @@ mod tests {
                     entity_number: 1,
                     name: String::from("constant-combinator"),
                     position: Position::from_xy(4.5, 23.5),
-                }
+                })
             ]),
         };
-        assert_eq!(BlueprintMeta::decode(bp_string).expect("Failed to decode bp_string"), bp);
+        assert_eq!(BlueprintMeta::from_blueprint_string(bp_string).expect("Failed to decode bp_string"), bp);
         Ok(())
     }
     
@@ -111,7 +130,7 @@ mod tests {
                 }
             }], 562949954928640)
             .with_entities(vec![
-                Entity {
+                Entity::ConstantCombinator(ConstantCombinator {
                     control_behavior: ControlBehavior {
                         sections: Sections {
                             sections: vec![
@@ -131,11 +150,11 @@ mod tests {
                     entity_number: 1,
                     name: String::from("constant-combinator"),
                     position: Position::from_xy(4.5, 23.5),
-                }
+                })
             ]),
         };
-        let encoded = BlueprintMeta::encode(&bp)?;
-        let decoded: BlueprintMeta = BlueprintMeta::decode(encoded)?;
+        let encoded = BlueprintMeta::to_blueprint_string(&bp)?;
+        let decoded: BlueprintMeta = BlueprintMeta::from_blueprint_string(encoded)?;
         assert_eq!(decoded, bp);
         Ok(())
     }

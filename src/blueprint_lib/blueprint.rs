@@ -1,5 +1,7 @@
 use serde::{Deserialize, Serialize};
 
+use super::constant_combinator::ConstantCombinator;
+
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct Blueprint {
     pub item: String,
@@ -109,11 +111,9 @@ pub struct Color {
 }
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
-pub struct Entity {
-    pub control_behavior: ControlBehavior,
-    pub entity_number: usize,
-    pub name: String,
-    pub position: Position
+#[serde(untagged)]
+pub enum Entity {
+    ConstantCombinator(ConstantCombinator)
 }
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
