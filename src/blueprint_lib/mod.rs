@@ -91,27 +91,20 @@ mod tests {
                 }
             }], 562949954928640)
             .with_entities(vec![
-                Entity::ConstantCombinator( ConstantCombinator {
-                    control_behavior: ControlBehavior {
-                        sections: Sections {
-                            sections: vec![
-                                Section::new(1, vec![
-                                    LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                    LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                    LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                    LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                ],)
-                            ]
-                        },
-                    },
-                    entity_number: 1,
-                    name: String::from("constant-combinator"),
-                    position: Position::from_xy(4.5, 23.5),
-                })
+                Entity::ConstantCombinator(ConstantCombinator::new()
+                .with_sections(vec![
+                    Section::new(1, vec![
+                        LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                        LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                        LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                        LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                    ],)
+                ])
+                .with_position(Position::from_xy(4.5, 23.5)))
             ]),
         };
         assert_eq!(BlueprintMeta::from_blueprint_string(bp_string).expect("Failed to decode bp_string"), bp);
@@ -130,27 +123,20 @@ mod tests {
                 }
             }], 562949954928640)
             .with_entities(vec![
-                Entity::ConstantCombinator(ConstantCombinator {
-                    control_behavior: ControlBehavior {
-                        sections: Sections {
-                            sections: vec![
-                                Section::new(1, vec![
-                                    LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                    LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                    LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                    LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal, Comparator::EqualTo)
-                                    .with_signal_type(SignalType::Virtual),
-                                ],)
-                            ]
-                        },
-                    },
-                    entity_number: 1,
-                    name: String::from("constant-combinator"),
-                    position: Position::from_xy(4.5, 23.5),
-                })
+                Entity::ConstantCombinator(ConstantCombinator::new()
+                .with_sections(vec![
+                    Section::new(1, vec![
+                        LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                        LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                        LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                        LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal, Comparator::EqualTo)
+                        .with_signal_type(SignalType::Virtual),
+                    ],)
+                ])
+                .with_position(Position::from_xy(4.5, 23.5)))
             ]),
         };
         let encoded = BlueprintMeta::to_blueprint_string(&bp)?;
