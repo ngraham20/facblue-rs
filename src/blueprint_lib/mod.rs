@@ -9,7 +9,10 @@ mod blueprint;
 use blueprint::*;
 
 mod constant_combinator;
+mod recipe;
 use constant_combinator::*;
+
+pub use recipe::*;
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 #[serde(untagged)]
@@ -94,13 +97,13 @@ mod tests {
                 Entity::ConstantCombinator(ConstantCombinator::new()
                 .with_sections(vec![
                     Section::new(1, vec![
-                        LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
-                        LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
-                        LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
-                        LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
                     ],)
                 ])
@@ -126,13 +129,13 @@ mod tests {
                 Entity::ConstantCombinator(ConstantCombinator::new()
                 .with_sections(vec![
                     Section::new(1, vec![
-                        LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(1, String::from("signal-0"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
-                        LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(2, String::from("signal-C"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
-                        LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(3, String::from("signal-Z"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
-                        LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal, Comparator::EqualTo)
+                        LogisticFilter::new(4, String::from("signal-dot"), 1, Quality::Normal)
                         .with_signal_type(SignalType::Virtual),
                     ],)
                 ])

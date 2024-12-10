@@ -158,12 +158,12 @@ pub struct LogisticFilter {
 }
 
 impl LogisticFilter {
-    pub fn new(index: u16, name: String, count: usize, quality: Quality, comparator: Comparator) -> Self {
+    pub fn new(index: u16, name: String, count: usize, quality: Quality) -> Self {
         Self {
             index,
             name,
             quality,
-            comparator,
+            comparator: Comparator::EqualTo,
             count,
             signal_type: None,
             max_count: None,
