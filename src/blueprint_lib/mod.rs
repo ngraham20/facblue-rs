@@ -10,7 +10,8 @@ use blueprint::*;
 
 mod constant_combinator;
 mod recipe;
-use constant_combinator::*;
+pub use constant_combinator::*;
+pub use blueprint::*;
 
 pub use recipe::*;
 

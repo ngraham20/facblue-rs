@@ -1,5 +1,154 @@
-{
-  "speed-module": {
+[
+  {
+    "type": "recipe",
+    "name": "recipe-unknown",
+    "icon": "__core__/graphics/icons/unknown.png",
+    "icon_size": 64,
+    "hidden": true,
+    "ingredients": {},
+    "results": {}
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-0",
+    "icon": "__base__/graphics/icons/parameter/parameter-0.png",
+    "localised_name": [
+      "parameter-x",
+      "0"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-1",
+    "icon": "__base__/graphics/icons/parameter/parameter-1.png",
+    "localised_name": [
+      "parameter-x",
+      "1"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-2",
+    "icon": "__base__/graphics/icons/parameter/parameter-2.png",
+    "localised_name": [
+      "parameter-x",
+      "2"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-3",
+    "icon": "__base__/graphics/icons/parameter/parameter-3.png",
+    "localised_name": [
+      "parameter-x",
+      "3"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-4",
+    "icon": "__base__/graphics/icons/parameter/parameter-4.png",
+    "localised_name": [
+      "parameter-x",
+      "4"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-5",
+    "icon": "__base__/graphics/icons/parameter/parameter-5.png",
+    "localised_name": [
+      "parameter-x",
+      "5"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-6",
+    "icon": "__base__/graphics/icons/parameter/parameter-6.png",
+    "localised_name": [
+      "parameter-x",
+      "6"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-7",
+    "icon": "__base__/graphics/icons/parameter/parameter-7.png",
+    "localised_name": [
+      "parameter-x",
+      "7"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-8",
+    "icon": "__base__/graphics/icons/parameter/parameter-8.png",
+    "localised_name": [
+      "parameter-x",
+      "8"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
+    "type": "recipe",
+    "name": "parameter-9",
+    "icon": "__base__/graphics/icons/parameter/parameter-9.png",
+    "localised_name": [
+      "parameter-x",
+      "9"
+    ],
+    "subgroup": "parameters",
+    "category": "parameters",
+    "order": "a",
+    "parameter": true,
+    "allow_productivity": true
+  },
+  {
     "type": "recipe",
     "name": "speed-module",
     "enabled": false,
@@ -25,156 +174,7 @@
     ],
     "category": "electronics"
   },
-  "recipe-unknown": {
-    "type": "recipe",
-    "name": "recipe-unknown",
-    "icon": "__core__/graphics/icons/unknown.png",
-    "icon_size": 64,
-    "hidden": true,
-    "ingredients": {},
-    "results": {}
-  },
-  "parameter-0": {
-    "type": "recipe",
-    "name": "parameter-0",
-    "icon": "__base__/graphics/icons/parameter/parameter-0.png",
-    "localised_name": [
-      "parameter-x",
-      "0"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-1": {
-    "type": "recipe",
-    "name": "parameter-1",
-    "icon": "__base__/graphics/icons/parameter/parameter-1.png",
-    "localised_name": [
-      "parameter-x",
-      "1"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-2": {
-    "type": "recipe",
-    "name": "parameter-2",
-    "icon": "__base__/graphics/icons/parameter/parameter-2.png",
-    "localised_name": [
-      "parameter-x",
-      "2"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-3": {
-    "type": "recipe",
-    "name": "parameter-3",
-    "icon": "__base__/graphics/icons/parameter/parameter-3.png",
-    "localised_name": [
-      "parameter-x",
-      "3"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-4": {
-    "type": "recipe",
-    "name": "parameter-4",
-    "icon": "__base__/graphics/icons/parameter/parameter-4.png",
-    "localised_name": [
-      "parameter-x",
-      "4"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-5": {
-    "type": "recipe",
-    "name": "parameter-5",
-    "icon": "__base__/graphics/icons/parameter/parameter-5.png",
-    "localised_name": [
-      "parameter-x",
-      "5"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-6": {
-    "type": "recipe",
-    "name": "parameter-6",
-    "icon": "__base__/graphics/icons/parameter/parameter-6.png",
-    "localised_name": [
-      "parameter-x",
-      "6"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-7": {
-    "type": "recipe",
-    "name": "parameter-7",
-    "icon": "__base__/graphics/icons/parameter/parameter-7.png",
-    "localised_name": [
-      "parameter-x",
-      "7"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-8": {
-    "type": "recipe",
-    "name": "parameter-8",
-    "icon": "__base__/graphics/icons/parameter/parameter-8.png",
-    "localised_name": [
-      "parameter-x",
-      "8"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "parameter-9": {
-    "type": "recipe",
-    "name": "parameter-9",
-    "icon": "__base__/graphics/icons/parameter/parameter-9.png",
-    "localised_name": [
-      "parameter-x",
-      "9"
-    ],
-    "subgroup": "parameters",
-    "category": "parameters",
-    "order": "a",
-    "parameter": true,
-    "allow_productivity": true
-  },
-  "speed-module-2": {
+  {
     "type": "recipe",
     "name": "speed-module-2",
     "enabled": false,
@@ -205,7 +205,7 @@
     ],
     "category": "electronics"
   },
-  "speed-module-3": {
+  {
     "type": "recipe",
     "name": "speed-module-3",
     "enabled": false,
@@ -241,7 +241,7 @@
     ],
     "category": "electronics"
   },
-  "productivity-module": {
+  {
     "type": "recipe",
     "name": "productivity-module",
     "enabled": false,
@@ -267,7 +267,7 @@
     ],
     "category": "electronics"
   },
-  "productivity-module-2": {
+  {
     "type": "recipe",
     "name": "productivity-module-2",
     "enabled": false,
@@ -298,7 +298,7 @@
     ],
     "category": "electronics"
   },
-  "productivity-module-3": {
+  {
     "type": "recipe",
     "name": "productivity-module-3",
     "enabled": false,
@@ -334,7 +334,7 @@
     ],
     "category": "electronics"
   },
-  "efficiency-module": {
+  {
     "type": "recipe",
     "name": "efficiency-module",
     "enabled": false,
@@ -360,7 +360,7 @@
     ],
     "category": "electronics"
   },
-  "efficiency-module-2": {
+  {
     "type": "recipe",
     "name": "efficiency-module-2",
     "enabled": false,
@@ -391,7 +391,7 @@
     ],
     "category": "electronics"
   },
-  "efficiency-module-3": {
+  {
     "type": "recipe",
     "name": "efficiency-module-3",
     "enabled": false,
@@ -427,7 +427,7 @@
     ],
     "category": "electronics"
   },
-  "bulk-inserter": {
+  {
     "type": "recipe",
     "name": "bulk-inserter",
     "enabled": false,
@@ -461,7 +461,7 @@
       }
     ]
   },
-  "basic-oil-processing": {
+  {
     "type": "recipe",
     "name": "basic-oil-processing",
     "category": "oil-processing",
@@ -490,7 +490,7 @@
     "main_product": "",
     "allow_quality": false
   },
-  "advanced-oil-processing": {
+  {
     "type": "recipe",
     "name": "advanced-oil-processing",
     "category": "oil-processing",
@@ -531,7 +531,7 @@
     "order": "a[oil-processing]-b[advanced-oil-processing]",
     "allow_quality": false
   },
-  "coal-liquefaction": {
+  {
     "type": "recipe",
     "name": "coal-liquefaction",
     "category": "oil-processing",
@@ -580,7 +580,7 @@
     "order": "a[oil-processing]-d[coal-liquefaction]",
     "allow_decomposition": false
   },
-  "heavy-oil-cracking": {
+  {
     "type": "recipe",
     "name": "heavy-oil-cracking",
     "category": "organic-or-chemistry",
@@ -638,7 +638,7 @@
     },
     "allow_quality": false
   },
-  "light-oil-cracking": {
+  {
     "type": "recipe",
     "name": "light-oil-cracking",
     "category": "organic-or-chemistry",
@@ -696,7 +696,7 @@
     },
     "allow_quality": false
   },
-  "sulfuric-acid": {
+  {
     "type": "recipe",
     "name": "sulfuric-acid",
     "category": "chemistry-or-cryogenics",
@@ -756,7 +756,7 @@
       }
     }
   },
-  "plastic-bar": {
+  {
     "type": "recipe",
     "name": "plastic-bar",
     "category": "chemistry-or-cryogenics",
@@ -809,7 +809,7 @@
       }
     }
   },
-  "solid-fuel-from-light-oil": {
+  {
     "type": "recipe",
     "name": "solid-fuel-from-light-oil",
     "category": "chemistry",
@@ -860,7 +860,7 @@
       }
     }
   },
-  "solid-fuel-from-petroleum-gas": {
+  {
     "type": "recipe",
     "name": "solid-fuel-from-petroleum-gas",
     "category": "chemistry",
@@ -911,7 +911,7 @@
       }
     }
   },
-  "solid-fuel-from-heavy-oil": {
+  {
     "type": "recipe",
     "name": "solid-fuel-from-heavy-oil",
     "category": "chemistry",
@@ -962,7 +962,7 @@
       }
     }
   },
-  "sulfur": {
+  {
     "type": "recipe",
     "name": "sulfur",
     "category": "chemistry-or-cryogenics",
@@ -1015,7 +1015,7 @@
       }
     }
   },
-  "lubricant": {
+  {
     "type": "recipe",
     "name": "lubricant",
     "category": "chemistry",
@@ -1066,7 +1066,7 @@
     },
     "allow_quality": false
   },
-  "barrel": {
+  {
     "type": "recipe",
     "name": "barrel",
     "category": "crafting",
@@ -1089,7 +1089,7 @@
     ],
     "allow_productivity": true
   },
-  "night-vision-equipment": {
+  {
     "type": "recipe",
     "name": "night-vision-equipment",
     "enabled": false,
@@ -1114,7 +1114,7 @@
       }
     ]
   },
-  "belt-immunity-equipment": {
+  {
     "type": "recipe",
     "name": "belt-immunity-equipment",
     "enabled": false,
@@ -1139,7 +1139,7 @@
       }
     ]
   },
-  "energy-shield-equipment": {
+  {
     "type": "recipe",
     "name": "energy-shield-equipment",
     "enabled": false,
@@ -1164,7 +1164,7 @@
       }
     ]
   },
-  "energy-shield-mk2-equipment": {
+  {
     "type": "recipe",
     "name": "energy-shield-mk2-equipment",
     "enabled": false,
@@ -1194,7 +1194,7 @@
       }
     ]
   },
-  "battery-equipment": {
+  {
     "type": "recipe",
     "name": "battery-equipment",
     "enabled": false,
@@ -1219,7 +1219,7 @@
       }
     ]
   },
-  "battery-mk2-equipment": {
+  {
     "type": "recipe",
     "name": "battery-mk2-equipment",
     "enabled": false,
@@ -1249,7 +1249,7 @@
       }
     ]
   },
-  "solar-panel-equipment": {
+  {
     "type": "recipe",
     "name": "solar-panel-equipment",
     "enabled": false,
@@ -1279,7 +1279,7 @@
       }
     ]
   },
-  "fission-reactor-equipment": {
+  {
     "type": "recipe",
     "name": "fission-reactor-equipment",
     "enabled": false,
@@ -1309,7 +1309,7 @@
       }
     ]
   },
-  "personal-laser-defense-equipment": {
+  {
     "type": "recipe",
     "name": "personal-laser-defense-equipment",
     "enabled": false,
@@ -1339,7 +1339,7 @@
       }
     ]
   },
-  "discharge-defense-equipment": {
+  {
     "type": "recipe",
     "name": "discharge-defense-equipment",
     "enabled": false,
@@ -1370,7 +1370,7 @@
     ],
     "category": "electronics"
   },
-  "exoskeleton-equipment": {
+  {
     "type": "recipe",
     "name": "exoskeleton-equipment",
     "enabled": false,
@@ -1400,7 +1400,7 @@
       }
     ]
   },
-  "personal-roboport-equipment": {
+  {
     "type": "recipe",
     "name": "personal-roboport-equipment",
     "enabled": false,
@@ -1435,7 +1435,7 @@
       }
     ]
   },
-  "personal-roboport-mk2-equipment": {
+  {
     "type": "recipe",
     "name": "personal-roboport-mk2-equipment",
     "enabled": false,
@@ -1465,7 +1465,7 @@
       }
     ]
   },
-  "laser-turret": {
+  {
     "type": "recipe",
     "name": "laser-turret",
     "enabled": false,
@@ -1495,7 +1495,7 @@
       }
     ]
   },
-  "flamethrower-turret": {
+  {
     "type": "recipe",
     "name": "flamethrower-turret",
     "enabled": false,
@@ -1530,7 +1530,7 @@
       }
     ]
   },
-  "artillery-turret": {
+  {
     "type": "recipe",
     "name": "artillery-turret",
     "enabled": false,
@@ -1565,7 +1565,7 @@
       }
     ]
   },
-  "gun-turret": {
+  {
     "type": "recipe",
     "name": "gun-turret",
     "enabled": false,
@@ -1595,7 +1595,7 @@
       }
     ]
   },
-  "wooden-chest": {
+  {
     "type": "recipe",
     "name": "wooden-chest",
     "ingredients": [
@@ -1613,7 +1613,7 @@
       }
     ]
   },
-  "display-panel": {
+  {
     "type": "recipe",
     "name": "display-panel",
     "ingredients": [
@@ -1637,7 +1637,7 @@
     ],
     "enabled": false
   },
-  "iron-stick": {
+  {
     "type": "recipe",
     "name": "iron-stick",
     "enabled": false,
@@ -1657,7 +1657,7 @@
     ],
     "allow_productivity": true
   },
-  "stone-furnace": {
+  {
     "type": "recipe",
     "name": "stone-furnace",
     "ingredients": [
@@ -1675,7 +1675,7 @@
       }
     ]
   },
-  "boiler": {
+  {
     "type": "recipe",
     "name": "boiler",
     "enabled": false,
@@ -1699,7 +1699,7 @@
       }
     ]
   },
-  "steam-engine": {
+  {
     "type": "recipe",
     "name": "steam-engine",
     "ingredients": [
@@ -1728,7 +1728,7 @@
     ],
     "enabled": false
   },
-  "iron-gear-wheel": {
+  {
     "type": "recipe",
     "name": "iron-gear-wheel",
     "ingredients": [
@@ -1747,7 +1747,7 @@
     ],
     "allow_productivity": true
   },
-  "electronic-circuit": {
+  {
     "type": "recipe",
     "name": "electronic-circuit",
     "ingredients": [
@@ -1773,7 +1773,7 @@
     "allow_productivity": true,
     "category": "electronics"
   },
-  "transport-belt": {
+  {
     "type": "recipe",
     "name": "transport-belt",
     "ingredients": [
@@ -1797,7 +1797,7 @@
     ],
     "category": "pressing"
   },
-  "electric-mining-drill": {
+  {
     "type": "recipe",
     "name": "electric-mining-drill",
     "energy_required": 2,
@@ -1827,7 +1827,7 @@
     ],
     "enabled": false
   },
-  "burner-mining-drill": {
+  {
     "type": "recipe",
     "name": "burner-mining-drill",
     "energy_required": 2,
@@ -1856,7 +1856,7 @@
       }
     ]
   },
-  "inserter": {
+  {
     "type": "recipe",
     "name": "inserter",
     "enabled": false,
@@ -1885,7 +1885,7 @@
       }
     ]
   },
-  "fast-inserter": {
+  {
     "type": "recipe",
     "name": "fast-inserter",
     "enabled": false,
@@ -1914,7 +1914,7 @@
       }
     ]
   },
-  "long-handed-inserter": {
+  {
     "type": "recipe",
     "name": "long-handed-inserter",
     "enabled": false,
@@ -1943,7 +1943,7 @@
       }
     ]
   },
-  "burner-inserter": {
+  {
     "type": "recipe",
     "name": "burner-inserter",
     "ingredients": [
@@ -1966,7 +1966,7 @@
       }
     ]
   },
-  "pipe": {
+  {
     "type": "recipe",
     "name": "pipe",
     "ingredients": [
@@ -1985,7 +1985,7 @@
     ],
     "enabled": false
   },
-  "offshore-pump": {
+  {
     "type": "recipe",
     "name": "offshore-pump",
     "enabled": false,
@@ -2009,7 +2009,7 @@
       }
     ]
   },
-  "copper-cable": {
+  {
     "type": "recipe",
     "name": "copper-cable",
     "enabled": false,
@@ -2030,7 +2030,7 @@
     "allow_productivity": true,
     "category": "electronics"
   },
-  "small-electric-pole": {
+  {
     "type": "recipe",
     "name": "small-electric-pole",
     "enabled": false,
@@ -2055,7 +2055,7 @@
     ],
     "category": "electronics"
   },
-  "pistol": {
+  {
     "type": "recipe",
     "name": "pistol",
     "enabled": false,
@@ -2081,7 +2081,7 @@
       }
     ]
   },
-  "submachine-gun": {
+  {
     "type": "recipe",
     "name": "submachine-gun",
     "enabled": false,
@@ -2111,7 +2111,7 @@
       }
     ]
   },
-  "firearm-magazine": {
+  {
     "type": "recipe",
     "name": "firearm-magazine",
     "energy_required": 1,
@@ -2130,7 +2130,7 @@
       }
     ]
   },
-  "light-armor": {
+  {
     "type": "recipe",
     "name": "light-armor",
     "enabled": true,
@@ -2150,7 +2150,7 @@
       }
     ]
   },
-  "radar": {
+  {
     "type": "recipe",
     "name": "radar",
     "ingredients": [
@@ -2179,7 +2179,7 @@
     ],
     "enabled": false
   },
-  "small-lamp": {
+  {
     "type": "recipe",
     "name": "small-lamp",
     "enabled": false,
@@ -2208,7 +2208,7 @@
       }
     ]
   },
-  "pipe-to-ground": {
+  {
     "type": "recipe",
     "name": "pipe-to-ground",
     "enabled": false,
@@ -2232,7 +2232,7 @@
       }
     ]
   },
-  "assembling-machine-1": {
+  {
     "type": "recipe",
     "name": "assembling-machine-1",
     "enabled": false,
@@ -2261,7 +2261,7 @@
       }
     ]
   },
-  "repair-pack": {
+  {
     "type": "recipe",
     "name": "repair-pack",
     "enabled": false,
@@ -2285,7 +2285,7 @@
       }
     ]
   },
-  "automation-science-pack": {
+  {
     "type": "recipe",
     "name": "automation-science-pack",
     "enabled": false,
@@ -2325,7 +2325,7 @@
     },
     "allow_productivity": true
   },
-  "logistic-science-pack": {
+  {
     "type": "recipe",
     "name": "logistic-science-pack",
     "enabled": false,
@@ -2365,7 +2365,7 @@
     },
     "allow_productivity": true
   },
-  "lab": {
+  {
     "type": "recipe",
     "name": "lab",
     "energy_required": 2,
@@ -2395,7 +2395,7 @@
     ],
     "enabled": false
   },
-  "stone-wall": {
+  {
     "type": "recipe",
     "name": "stone-wall",
     "enabled": false,
@@ -2414,7 +2414,7 @@
       }
     ]
   },
-  "assembling-machine-2": {
+  {
     "type": "recipe",
     "name": "assembling-machine-2",
     "enabled": false,
@@ -2448,7 +2448,7 @@
       }
     ]
   },
-  "splitter": {
+  {
     "type": "recipe",
     "name": "splitter",
     "enabled": false,
@@ -2479,7 +2479,7 @@
     ],
     "category": "pressing"
   },
-  "underground-belt": {
+  {
     "type": "recipe",
     "name": "underground-belt",
     "enabled": false,
@@ -2505,7 +2505,7 @@
     ],
     "category": "pressing"
   },
-  "loader": {
+  {
     "type": "recipe",
     "name": "loader",
     "enabled": false,
@@ -2546,7 +2546,7 @@
       }
     ]
   },
-  "car": {
+  {
     "type": "recipe",
     "name": "car",
     "enabled": false,
@@ -2576,7 +2576,7 @@
       }
     ]
   },
-  "engine-unit": {
+  {
     "type": "recipe",
     "name": "engine-unit",
     "energy_required": 10,
@@ -2608,7 +2608,7 @@
     "enabled": false,
     "allow_productivity": true
   },
-  "iron-chest": {
+  {
     "type": "recipe",
     "name": "iron-chest",
     "enabled": true,
@@ -2627,7 +2627,7 @@
       }
     ]
   },
-  "big-electric-pole": {
+  {
     "type": "recipe",
     "name": "big-electric-pole",
     "enabled": false,
@@ -2657,7 +2657,7 @@
     ],
     "category": "electronics"
   },
-  "medium-electric-pole": {
+  {
     "type": "recipe",
     "name": "medium-electric-pole",
     "enabled": false,
@@ -2687,7 +2687,7 @@
     ],
     "category": "electronics"
   },
-  "shotgun": {
+  {
     "type": "recipe",
     "name": "shotgun",
     "enabled": false,
@@ -2722,7 +2722,7 @@
       }
     ]
   },
-  "shotgun-shell": {
+  {
     "type": "recipe",
     "name": "shotgun-shell",
     "enabled": false,
@@ -2747,7 +2747,7 @@
       }
     ]
   },
-  "piercing-rounds-magazine": {
+  {
     "type": "recipe",
     "name": "piercing-rounds-magazine",
     "enabled": false,
@@ -2777,7 +2777,7 @@
       }
     ]
   },
-  "grenade": {
+  {
     "type": "recipe",
     "name": "grenade",
     "enabled": false,
@@ -2802,7 +2802,7 @@
       }
     ]
   },
-  "steel-furnace": {
+  {
     "type": "recipe",
     "name": "steel-furnace",
     "ingredients": [
@@ -2827,7 +2827,7 @@
     "energy_required": 3,
     "enabled": false
   },
-  "gate": {
+  {
     "type": "recipe",
     "name": "gate",
     "enabled": false,
@@ -2856,7 +2856,7 @@
       }
     ]
   },
-  "heavy-armor": {
+  {
     "type": "recipe",
     "name": "heavy-armor",
     "enabled": false,
@@ -2881,7 +2881,7 @@
       }
     ]
   },
-  "steel-chest": {
+  {
     "type": "recipe",
     "name": "steel-chest",
     "enabled": false,
@@ -2900,7 +2900,7 @@
       }
     ]
   },
-  "fast-underground-belt": {
+  {
     "type": "recipe",
     "name": "fast-underground-belt",
     "energy_required": 2,
@@ -2926,7 +2926,7 @@
     ],
     "category": "pressing"
   },
-  "fast-splitter": {
+  {
     "type": "recipe",
     "name": "fast-splitter",
     "enabled": false,
@@ -2957,7 +2957,7 @@
     ],
     "category": "pressing"
   },
-  "concrete": {
+  {
     "type": "recipe",
     "name": "concrete",
     "energy_required": 10,
@@ -2988,7 +2988,7 @@
       }
     ]
   },
-  "hazard-concrete": {
+  {
     "type": "recipe",
     "name": "hazard-concrete",
     "energy_required": 0.25,
@@ -3009,7 +3009,7 @@
       }
     ]
   },
-  "refined-concrete": {
+  {
     "type": "recipe",
     "name": "refined-concrete",
     "energy_required": 15,
@@ -3045,7 +3045,7 @@
       }
     ]
   },
-  "refined-hazard-concrete": {
+  {
     "type": "recipe",
     "name": "refined-hazard-concrete",
     "energy_required": 0.25,
@@ -3066,7 +3066,7 @@
       }
     ]
   },
-  "landfill": {
+  {
     "type": "recipe",
     "name": "landfill",
     "energy_required": 0.5,
@@ -3087,7 +3087,7 @@
       }
     ]
   },
-  "fast-transport-belt": {
+  {
     "type": "recipe",
     "name": "fast-transport-belt",
     "enabled": false,
@@ -3112,7 +3112,7 @@
     ],
     "category": "pressing"
   },
-  "solar-panel": {
+  {
     "type": "recipe",
     "name": "solar-panel",
     "energy_required": 10,
@@ -3143,7 +3143,7 @@
     ],
     "category": "electronics"
   },
-  "rail": {
+  {
     "type": "recipe",
     "name": "rail",
     "enabled": false,
@@ -3172,7 +3172,7 @@
       }
     ]
   },
-  "locomotive": {
+  {
     "type": "recipe",
     "name": "locomotive",
     "energy_required": 4,
@@ -3202,7 +3202,7 @@
       }
     ]
   },
-  "cargo-wagon": {
+  {
     "type": "recipe",
     "name": "cargo-wagon",
     "energy_required": 1,
@@ -3232,7 +3232,7 @@
       }
     ]
   },
-  "rail-signal": {
+  {
     "type": "recipe",
     "name": "rail-signal",
     "enabled": false,
@@ -3256,7 +3256,7 @@
       }
     ]
   },
-  "rail-chain-signal": {
+  {
     "type": "recipe",
     "name": "rail-chain-signal",
     "enabled": false,
@@ -3280,7 +3280,7 @@
       }
     ]
   },
-  "train-stop": {
+  {
     "type": "recipe",
     "name": "train-stop",
     "enabled": false,
@@ -3314,7 +3314,7 @@
       }
     ]
   },
-  "copper-plate": {
+  {
     "type": "recipe",
     "name": "copper-plate",
     "category": "smelting",
@@ -3335,7 +3335,7 @@
     ],
     "allow_productivity": true
   },
-  "iron-plate": {
+  {
     "type": "recipe",
     "name": "iron-plate",
     "category": "smelting",
@@ -3356,7 +3356,7 @@
     ],
     "allow_productivity": true
   },
-  "stone-brick": {
+  {
     "type": "recipe",
     "name": "stone-brick",
     "category": "smelting",
@@ -3378,7 +3378,7 @@
     ],
     "allow_productivity": true
   },
-  "steel-plate": {
+  {
     "type": "recipe",
     "name": "steel-plate",
     "category": "smelting",
@@ -3400,7 +3400,7 @@
     ],
     "allow_productivity": true
   },
-  "arithmetic-combinator": {
+  {
     "type": "recipe",
     "name": "arithmetic-combinator",
     "enabled": false,
@@ -3424,7 +3424,7 @@
       }
     ]
   },
-  "decider-combinator": {
+  {
     "type": "recipe",
     "name": "decider-combinator",
     "enabled": false,
@@ -3448,7 +3448,7 @@
       }
     ]
   },
-  "constant-combinator": {
+  {
     "type": "recipe",
     "name": "constant-combinator",
     "enabled": false,
@@ -3472,7 +3472,7 @@
       }
     ]
   },
-  "selector-combinator": {
+  {
     "type": "recipe",
     "name": "selector-combinator",
     "enabled": false,
@@ -3496,7 +3496,7 @@
       }
     ]
   },
-  "power-switch": {
+  {
     "type": "recipe",
     "name": "power-switch",
     "enabled": false,
@@ -3526,7 +3526,7 @@
       }
     ]
   },
-  "programmable-speaker": {
+  {
     "type": "recipe",
     "name": "programmable-speaker",
     "enabled": false,
@@ -3561,7 +3561,7 @@
       }
     ]
   },
-  "poison-capsule": {
+  {
     "type": "recipe",
     "name": "poison-capsule",
     "enabled": false,
@@ -3591,7 +3591,7 @@
       }
     ]
   },
-  "slowdown-capsule": {
+  {
     "type": "recipe",
     "name": "slowdown-capsule",
     "enabled": false,
@@ -3621,7 +3621,7 @@
       }
     ]
   },
-  "cluster-grenade": {
+  {
     "type": "recipe",
     "name": "cluster-grenade",
     "enabled": false,
@@ -3651,7 +3651,7 @@
       }
     ]
   },
-  "defender-capsule": {
+  {
     "type": "recipe",
     "name": "defender-capsule",
     "enabled": false,
@@ -3681,7 +3681,7 @@
       }
     ]
   },
-  "distractor-capsule": {
+  {
     "type": "recipe",
     "name": "distractor-capsule",
     "enabled": false,
@@ -3706,7 +3706,7 @@
       }
     ]
   },
-  "destroyer-capsule": {
+  {
     "type": "recipe",
     "name": "destroyer-capsule",
     "enabled": false,
@@ -3736,7 +3736,7 @@
       }
     ]
   },
-  "cliff-explosives": {
+  {
     "type": "recipe",
     "name": "cliff-explosives",
     "enabled": false,
@@ -3771,7 +3771,7 @@
       }
     ]
   },
-  "uranium-rounds-magazine": {
+  {
     "type": "recipe",
     "name": "uranium-rounds-magazine",
     "enabled": false,
@@ -3796,7 +3796,7 @@
       }
     ]
   },
-  "rocket": {
+  {
     "type": "recipe",
     "name": "rocket",
     "enabled": false,
@@ -3821,7 +3821,7 @@
       }
     ]
   },
-  "explosive-rocket": {
+  {
     "type": "recipe",
     "name": "explosive-rocket",
     "enabled": false,
@@ -3846,7 +3846,7 @@
       }
     ]
   },
-  "atomic-bomb": {
+  {
     "type": "recipe",
     "name": "atomic-bomb",
     "enabled": false,
@@ -3876,7 +3876,7 @@
       }
     ]
   },
-  "piercing-shotgun-shell": {
+  {
     "type": "recipe",
     "name": "piercing-shotgun-shell",
     "enabled": false,
@@ -3906,7 +3906,7 @@
       }
     ]
   },
-  "cannon-shell": {
+  {
     "type": "recipe",
     "name": "cannon-shell",
     "enabled": false,
@@ -3936,7 +3936,7 @@
       }
     ]
   },
-  "explosive-cannon-shell": {
+  {
     "type": "recipe",
     "name": "explosive-cannon-shell",
     "enabled": false,
@@ -3966,7 +3966,7 @@
       }
     ]
   },
-  "uranium-cannon-shell": {
+  {
     "type": "recipe",
     "name": "uranium-cannon-shell",
     "enabled": false,
@@ -3991,7 +3991,7 @@
       }
     ]
   },
-  "explosive-uranium-cannon-shell": {
+  {
     "type": "recipe",
     "name": "explosive-uranium-cannon-shell",
     "enabled": false,
@@ -4016,7 +4016,7 @@
       }
     ]
   },
-  "artillery-shell": {
+  {
     "type": "recipe",
     "name": "artillery-shell",
     "enabled": false,
@@ -4051,7 +4051,7 @@
       }
     ]
   },
-  "flamethrower-ammo": {
+  {
     "type": "recipe",
     "name": "flamethrower-ammo",
     "category": "chemistry",
@@ -4103,7 +4103,7 @@
       }
     }
   },
-  "express-transport-belt": {
+  {
     "type": "recipe",
     "name": "express-transport-belt",
     "category": "crafting-with-fluid-or-metallurgy",
@@ -4133,7 +4133,7 @@
       }
     ]
   },
-  "assembling-machine-3": {
+  {
     "type": "recipe",
     "name": "assembling-machine-3",
     "enabled": false,
@@ -4157,7 +4157,7 @@
       }
     ]
   },
-  "tank": {
+  {
     "type": "recipe",
     "name": "tank",
     "enabled": false,
@@ -4192,7 +4192,7 @@
       }
     ]
   },
-  "spidertron": {
+  {
     "type": "recipe",
     "name": "spidertron",
     "enabled": false,
@@ -4232,7 +4232,7 @@
       }
     ]
   },
-  "fluid-wagon": {
+  {
     "type": "recipe",
     "name": "fluid-wagon",
     "enabled": false,
@@ -4267,7 +4267,7 @@
       }
     ]
   },
-  "artillery-wagon": {
+  {
     "type": "recipe",
     "name": "artillery-wagon",
     "energy_required": 4,
@@ -4307,7 +4307,7 @@
       }
     ]
   },
-  "modular-armor": {
+  {
     "type": "recipe",
     "name": "modular-armor",
     "enabled": false,
@@ -4332,7 +4332,7 @@
       }
     ]
   },
-  "power-armor": {
+  {
     "type": "recipe",
     "name": "power-armor",
     "enabled": false,
@@ -4363,7 +4363,7 @@
     ],
     "requester_paste_multiplier": 1
   },
-  "power-armor-mk2": {
+  {
     "type": "recipe",
     "name": "power-armor-mk2",
     "enabled": false,
@@ -4404,7 +4404,7 @@
     ],
     "requester_paste_multiplier": 1
   },
-  "flamethrower": {
+  {
     "type": "recipe",
     "name": "flamethrower",
     "enabled": false,
@@ -4429,7 +4429,7 @@
       }
     ]
   },
-  "land-mine": {
+  {
     "type": "recipe",
     "name": "land-mine",
     "enabled": false,
@@ -4454,7 +4454,7 @@
       }
     ]
   },
-  "rocket-launcher": {
+  {
     "type": "recipe",
     "name": "rocket-launcher",
     "enabled": false,
@@ -4484,7 +4484,7 @@
       }
     ]
   },
-  "combat-shotgun": {
+  {
     "type": "recipe",
     "name": "combat-shotgun",
     "enabled": false,
@@ -4519,7 +4519,7 @@
       }
     ]
   },
-  "chemical-science-pack": {
+  {
     "type": "recipe",
     "name": "chemical-science-pack",
     "enabled": false,
@@ -4564,7 +4564,7 @@
     },
     "allow_productivity": true
   },
-  "military-science-pack": {
+  {
     "type": "recipe",
     "name": "military-science-pack",
     "enabled": false,
@@ -4609,7 +4609,7 @@
     },
     "allow_productivity": true
   },
-  "production-science-pack": {
+  {
     "type": "recipe",
     "name": "production-science-pack",
     "enabled": false,
@@ -4654,7 +4654,7 @@
     },
     "allow_productivity": true
   },
-  "utility-science-pack": {
+  {
     "type": "recipe",
     "name": "utility-science-pack",
     "enabled": false,
@@ -4699,7 +4699,7 @@
     },
     "allow_productivity": true
   },
-  "express-underground-belt": {
+  {
     "type": "recipe",
     "name": "express-underground-belt",
     "energy_required": 2,
@@ -4730,7 +4730,7 @@
       }
     ]
   },
-  "fast-loader": {
+  {
     "type": "recipe",
     "name": "fast-loader",
     "enabled": false,
@@ -4756,7 +4756,7 @@
       }
     ]
   },
-  "express-loader": {
+  {
     "type": "recipe",
     "name": "express-loader",
     "enabled": false,
@@ -4782,7 +4782,7 @@
       }
     ]
   },
-  "express-splitter": {
+  {
     "type": "recipe",
     "name": "express-splitter",
     "category": "crafting-with-fluid-or-metallurgy",
@@ -4818,7 +4818,7 @@
       }
     ]
   },
-  "advanced-circuit": {
+  {
     "type": "recipe",
     "name": "advanced-circuit",
     "enabled": false,
@@ -4850,7 +4850,7 @@
     "allow_productivity": true,
     "category": "electronics"
   },
-  "processing-unit": {
+  {
     "type": "recipe",
     "name": "processing-unit",
     "category": "electronics-with-fluid",
@@ -4882,7 +4882,7 @@
     ],
     "allow_productivity": true
   },
-  "logistic-robot": {
+  {
     "type": "recipe",
     "name": "logistic-robot",
     "enabled": false,
@@ -4906,7 +4906,7 @@
       }
     ]
   },
-  "construction-robot": {
+  {
     "type": "recipe",
     "name": "construction-robot",
     "enabled": false,
@@ -4930,7 +4930,7 @@
       }
     ]
   },
-  "passive-provider-chest": {
+  {
     "type": "recipe",
     "name": "passive-provider-chest",
     "enabled": false,
@@ -4959,7 +4959,7 @@
       }
     ]
   },
-  "active-provider-chest": {
+  {
     "type": "recipe",
     "name": "active-provider-chest",
     "enabled": false,
@@ -4988,7 +4988,7 @@
       }
     ]
   },
-  "storage-chest": {
+  {
     "type": "recipe",
     "name": "storage-chest",
     "enabled": false,
@@ -5017,7 +5017,7 @@
       }
     ]
   },
-  "buffer-chest": {
+  {
     "type": "recipe",
     "name": "buffer-chest",
     "enabled": false,
@@ -5046,7 +5046,7 @@
       }
     ]
   },
-  "requester-chest": {
+  {
     "type": "recipe",
     "name": "requester-chest",
     "enabled": false,
@@ -5075,7 +5075,7 @@
       }
     ]
   },
-  "rocket-silo": {
+  {
     "type": "recipe",
     "name": "rocket-silo",
     "enabled": false,
@@ -5116,7 +5116,7 @@
     ],
     "requester_paste_multiplier": 1
   },
-  "cargo-landing-pad": {
+  {
     "type": "recipe",
     "name": "cargo-landing-pad",
     "enabled": false,
@@ -5146,7 +5146,7 @@
       }
     ]
   },
-  "roboport": {
+  {
     "type": "recipe",
     "name": "roboport",
     "enabled": false,
@@ -5176,7 +5176,7 @@
       }
     ]
   },
-  "substation": {
+  {
     "type": "recipe",
     "name": "substation",
     "enabled": false,
@@ -5206,7 +5206,7 @@
     ],
     "category": "electronics"
   },
-  "accumulator": {
+  {
     "type": "recipe",
     "name": "accumulator",
     "energy_required": 10,
@@ -5232,7 +5232,7 @@
     ],
     "category": "electronics"
   },
-  "electric-furnace": {
+  {
     "type": "recipe",
     "name": "electric-furnace",
     "ingredients": [
@@ -5262,7 +5262,7 @@
     "energy_required": 5,
     "enabled": false
   },
-  "beacon": {
+  {
     "type": "recipe",
     "name": "beacon",
     "enabled": false,
@@ -5298,7 +5298,7 @@
     ],
     "category": "electronics"
   },
-  "pumpjack": {
+  {
     "type": "recipe",
     "name": "pumpjack",
     "energy_required": 5,
@@ -5333,7 +5333,7 @@
     ],
     "enabled": false
   },
-  "oil-refinery": {
+  {
     "type": "recipe",
     "name": "oil-refinery",
     "energy_required": 8,
@@ -5373,7 +5373,7 @@
     ],
     "enabled": false
   },
-  "electric-engine-unit": {
+  {
     "type": "recipe",
     "name": "electric-engine-unit",
     "category": "crafting-with-fluid",
@@ -5405,7 +5405,7 @@
     "enabled": false,
     "allow_productivity": true
   },
-  "flying-robot-frame": {
+  {
     "type": "recipe",
     "name": "flying-robot-frame",
     "energy_required": 20,
@@ -5441,7 +5441,7 @@
     "enabled": false,
     "allow_productivity": true
   },
-  "explosives": {
+  {
     "type": "recipe",
     "name": "explosives",
     "category": "chemistry-or-cryogenics",
@@ -5499,7 +5499,7 @@
     ],
     "allow_productivity": true
   },
-  "battery": {
+  {
     "type": "recipe",
     "name": "battery",
     "category": "chemistry-or-cryogenics",
@@ -5557,7 +5557,7 @@
     },
     "allow_productivity": true
   },
-  "storage-tank": {
+  {
     "type": "recipe",
     "name": "storage-tank",
     "energy_required": 3,
@@ -5582,7 +5582,7 @@
       }
     ]
   },
-  "pump": {
+  {
     "type": "recipe",
     "name": "pump",
     "energy_required": 2,
@@ -5612,7 +5612,7 @@
       }
     ]
   },
-  "chemical-plant": {
+  {
     "type": "recipe",
     "name": "chemical-plant",
     "energy_required": 5,
@@ -5647,7 +5647,7 @@
       }
     ]
   },
-  "low-density-structure": {
+  {
     "type": "recipe",
     "name": "low-density-structure",
     "category": "crafting",
@@ -5679,7 +5679,7 @@
     ],
     "allow_productivity": true
   },
-  "rocket-fuel": {
+  {
     "type": "recipe",
     "name": "rocket-fuel",
     "energy_required": 15,
@@ -5720,7 +5720,7 @@
     },
     "allow_productivity": true
   },
-  "rocket-part": {
+  {
     "type": "recipe",
     "name": "rocket-part",
     "energy_required": 3,
@@ -5753,7 +5753,7 @@
     ],
     "allow_productivity": true
   },
-  "nuclear-reactor": {
+  {
     "type": "recipe",
     "name": "nuclear-reactor",
     "energy_required": 8,
@@ -5789,7 +5789,7 @@
     ],
     "requester_paste_multiplier": 1
   },
-  "centrifuge": {
+  {
     "type": "recipe",
     "name": "centrifuge",
     "energy_required": 4,
@@ -5825,7 +5825,7 @@
     ],
     "requester_paste_multiplier": 10
   },
-  "uranium-processing": {
+  {
     "type": "recipe",
     "name": "uranium-processing",
     "energy_required": 12,
@@ -5857,7 +5857,7 @@
     ],
     "allow_productivity": true
   },
-  "kovarex-enrichment-process": {
+  {
     "type": "recipe",
     "name": "kovarex-enrichment-process",
     "energy_required": 60,
@@ -5901,7 +5901,7 @@
     "allow_productivity": true,
     "allow_quality": false
   },
-  "nuclear-fuel": {
+  {
     "type": "recipe",
     "name": "nuclear-fuel",
     "energy_required": 90,
@@ -5930,7 +5930,7 @@
     ],
     "allow_productivity": true
   },
-  "nuclear-fuel-reprocessing": {
+  {
     "type": "recipe",
     "name": "nuclear-fuel-reprocessing",
     "energy_required": 60,
@@ -5957,7 +5957,7 @@
     "allow_decomposition": false,
     "allow_productivity": true
   },
-  "uranium-fuel-cell": {
+  {
     "type": "recipe",
     "name": "uranium-fuel-cell",
     "energy_required": 10,
@@ -5989,7 +5989,7 @@
     "subgroup": "uranium-processing",
     "allow_productivity": true
   },
-  "heat-exchanger": {
+  {
     "type": "recipe",
     "name": "heat-exchanger",
     "energy_required": 3,
@@ -6019,7 +6019,7 @@
       }
     ]
   },
-  "heat-pipe": {
+  {
     "type": "recipe",
     "name": "heat-pipe",
     "energy_required": 1,
@@ -6044,7 +6044,7 @@
       }
     ]
   },
-  "steam-turbine": {
+  {
     "type": "recipe",
     "name": "steam-turbine",
     "enabled": false,
@@ -6074,7 +6074,7 @@
       }
     ]
   },
-  "rail-support": {
+  {
     "type": "recipe",
     "name": "rail-support",
     "enabled": false,
@@ -6098,7 +6098,7 @@
       }
     ]
   },
-  "rail-ramp": {
+  {
     "type": "recipe",
     "name": "rail-ramp",
     "enabled": false,
@@ -6127,7 +6127,7 @@
       }
     ]
   },
-  "quality-module": {
+  {
     "type": "recipe",
     "name": "quality-module",
     "enabled": false,
@@ -6153,7 +6153,7 @@
     ],
     "category": "electronics"
   },
-  "quality-module-2": {
+  {
     "type": "recipe",
     "name": "quality-module-2",
     "enabled": false,
@@ -6184,7 +6184,7 @@
     ],
     "category": "electronics"
   },
-  "quality-module-3": {
+  {
     "type": "recipe",
     "name": "quality-module-3",
     "enabled": false,
@@ -6220,7 +6220,7 @@
     ],
     "category": "electronics"
   },
-  "recycler": {
+  {
     "type": "recipe",
     "name": "recycler",
     "ingredients": [
@@ -6262,7 +6262,7 @@
       }
     ]
   },
-  "simple-coal-liquefaction": {
+  {
     "type": "recipe",
     "name": "simple-coal-liquefaction",
     "category": "oil-processing",
@@ -6299,7 +6299,7 @@
     "allow_decomposition": false,
     "show_amount_in_title": false
   },
-  "yumako-processing": {
+  {
     "type": "recipe",
     "name": "yumako-processing",
     "icon": "__space-age__/graphics/icons/yumako-processing.png",
@@ -6344,7 +6344,7 @@
       }
     }
   },
-  "jellynut-processing": {
+  {
     "type": "recipe",
     "name": "jellynut-processing",
     "icon": "__space-age__/graphics/icons/jellynut-processing.png",
@@ -6389,7 +6389,7 @@
       }
     }
   },
-  "copper-bacteria": {
+  {
     "type": "recipe",
     "name": "copper-bacteria",
     "icon": "__space-age__/graphics/icons/copper-bacteria.png",
@@ -6441,7 +6441,7 @@
       }
     }
   },
-  "copper-bacteria-cultivation": {
+  {
     "type": "recipe",
     "name": "copper-bacteria-cultivation",
     "icon": "__space-age__/graphics/icons/copper-bacteria-cultivation.png",
@@ -6494,7 +6494,7 @@
     },
     "show_amount_in_title": false
   },
-  "iron-bacteria": {
+  {
     "type": "recipe",
     "name": "iron-bacteria",
     "icon": "__space-age__/graphics/icons/iron-bacteria.png",
@@ -6546,7 +6546,7 @@
       }
     }
   },
-  "iron-bacteria-cultivation": {
+  {
     "type": "recipe",
     "name": "iron-bacteria-cultivation",
     "icon": "__space-age__/graphics/icons/iron-bacteria-cultivation.png",
@@ -6599,7 +6599,7 @@
     },
     "show_amount_in_title": false
   },
-  "artificial-yumako-soil": {
+  {
     "type": "recipe",
     "name": "artificial-yumako-soil",
     "icon": "__space-age__/graphics/icons/artificial-yumako-soil.png",
@@ -6639,7 +6639,7 @@
       }
     ]
   },
-  "overgrowth-yumako-soil": {
+  {
     "type": "recipe",
     "name": "overgrowth-yumako-soil",
     "icon": "__space-age__/graphics/icons/overgrowth-yumako-soil.png",
@@ -6689,7 +6689,7 @@
       }
     ]
   },
-  "artificial-jellynut-soil": {
+  {
     "type": "recipe",
     "name": "artificial-jellynut-soil",
     "icon": "__space-age__/graphics/icons/artificial-jellynut-soil.png",
@@ -6729,7 +6729,7 @@
       }
     ]
   },
-  "overgrowth-jellynut-soil": {
+  {
     "type": "recipe",
     "name": "overgrowth-jellynut-soil",
     "icon": "__space-age__/graphics/icons/overgrowth-jellynut-soil.png",
@@ -6779,7 +6779,7 @@
       }
     ]
   },
-  "nutrients-from-spoilage": {
+  {
     "type": "recipe",
     "name": "nutrients-from-spoilage",
     "icon": "__space-age__/graphics/icons/nutrients-from-spoilage.png",
@@ -6819,7 +6819,7 @@
       }
     }
   },
-  "nutrients-from-yumako-mash": {
+  {
     "type": "recipe",
     "name": "nutrients-from-yumako-mash",
     "icon": "__space-age__/graphics/icons/nutrients-from-yumako-mash.png",
@@ -6858,7 +6858,7 @@
       }
     }
   },
-  "nutrients-from-bioflux": {
+  {
     "type": "recipe",
     "name": "nutrients-from-bioflux",
     "icon": "__space-age__/graphics/icons/nutrients-from-bioflux.png",
@@ -6897,7 +6897,7 @@
       }
     }
   },
-  "pentapod-egg": {
+  {
     "type": "recipe",
     "name": "pentapod-egg",
     "icon": "__space-age__/graphics/icons/pentapod-egg-3.png",
@@ -6957,7 +6957,7 @@
       }
     }
   },
-  "rocket-fuel-from-jelly": {
+  {
     "type": "recipe",
     "name": "rocket-fuel-from-jelly",
     "icon": "__space-age__/graphics/icons/rocket-fuel-from-jelly.png",
@@ -7006,7 +7006,7 @@
       }
     }
   },
-  "bioflux": {
+  {
     "type": "recipe",
     "name": "bioflux",
     "icon": "__space-age__/graphics/icons/bioflux.png",
@@ -7050,7 +7050,7 @@
       }
     }
   },
-  "bioplastic": {
+  {
     "type": "recipe",
     "name": "bioplastic",
     "icon": "__space-age__/graphics/icons/bioplastic.png",
@@ -7094,7 +7094,7 @@
       }
     }
   },
-  "biosulfur": {
+  {
     "type": "recipe",
     "name": "biosulfur",
     "icon": "__space-age__/graphics/icons/biosulfur.png",
@@ -7138,7 +7138,7 @@
       }
     }
   },
-  "biolubricant": {
+  {
     "type": "recipe",
     "name": "biolubricant",
     "icon": "__space-age__/graphics/icons/fluid/biolubricant.png",
@@ -7177,7 +7177,7 @@
       }
     }
   },
-  "carbon-fiber": {
+  {
     "type": "recipe",
     "name": "carbon-fiber",
     "category": "organic",
@@ -7220,7 +7220,7 @@
       }
     }
   },
-  "toolbelt-equipment": {
+  {
     "type": "recipe",
     "name": "toolbelt-equipment",
     "enabled": false,
@@ -7245,7 +7245,7 @@
       }
     ]
   },
-  "battery-mk3-equipment": {
+  {
     "type": "recipe",
     "name": "battery-mk3-equipment",
     "enabled": false,
@@ -7270,7 +7270,7 @@
       }
     ]
   },
-  "space-platform-foundation": {
+  {
     "type": "recipe",
     "name": "space-platform-foundation",
     "energy_required": 10,
@@ -7296,7 +7296,7 @@
       }
     ]
   },
-  "stack-inserter": {
+  {
     "type": "recipe",
     "name": "stack-inserter",
     "enabled": false,
@@ -7331,7 +7331,7 @@
       }
     ]
   },
-  "rocket-turret": {
+  {
     "type": "recipe",
     "name": "rocket-turret",
     "enabled": false,
@@ -7371,7 +7371,7 @@
       }
     ]
   },
-  "infinity-chest": {
+  {
     "type": "recipe",
     "name": "infinity-chest",
     "energy_required": 0.5,
@@ -7397,7 +7397,7 @@
       }
     ]
   },
-  "infinity-pipe": {
+  {
     "type": "recipe",
     "name": "infinity-pipe",
     "energy_required": 0.5,
@@ -7423,7 +7423,7 @@
       }
     ]
   },
-  "heat-interface": {
+  {
     "type": "recipe",
     "name": "heat-interface",
     "energy_required": 0.5,
@@ -7449,7 +7449,7 @@
       }
     ]
   },
-  "space-platform-starter-pack": {
+  {
     "type": "recipe",
     "name": "space-platform-starter-pack",
     "enabled": false,
@@ -7479,7 +7479,7 @@
       }
     ]
   },
-  "cargo-bay": {
+  {
     "type": "recipe",
     "name": "cargo-bay",
     "enabled": false,
@@ -7509,7 +7509,7 @@
       }
     ]
   },
-  "asteroid-collector": {
+  {
     "type": "recipe",
     "name": "asteroid-collector",
     "enabled": false,
@@ -7539,7 +7539,7 @@
       }
     ]
   },
-  "crusher": {
+  {
     "type": "recipe",
     "name": "crusher",
     "enabled": false,
@@ -7569,7 +7569,7 @@
       }
     ]
   },
-  "thruster": {
+  {
     "type": "recipe",
     "name": "thruster",
     "enabled": false,
@@ -7599,7 +7599,7 @@
       }
     ]
   },
-  "space-science-pack": {
+  {
     "type": "recipe",
     "name": "space-science-pack",
     "icon": "__base__/graphics/icons/space-science-pack.png",
@@ -7639,7 +7639,7 @@
     "allow_productivity": true,
     "main_product": "space-science-pack"
   },
-  "metallurgic-science-pack": {
+  {
     "type": "recipe",
     "name": "metallurgic-science-pack",
     "category": "metallurgy",
@@ -7678,7 +7678,7 @@
     ],
     "allow_productivity": true
   },
-  "agricultural-science-pack": {
+  {
     "type": "recipe",
     "name": "agricultural-science-pack",
     "category": "organic",
@@ -7727,7 +7727,7 @@
       ]
     }
   },
-  "electromagnetic-science-pack": {
+  {
     "type": "recipe",
     "name": "electromagnetic-science-pack",
     "category": "electromagnetics",
@@ -7771,7 +7771,7 @@
     ],
     "allow_productivity": true
   },
-  "cryogenic-science-pack": {
+  {
     "type": "recipe",
     "name": "cryogenic-science-pack",
     "category": "cryogenics",
@@ -7845,7 +7845,7 @@
       }
     }
   },
-  "metallic-asteroid-crushing": {
+  {
     "type": "recipe",
     "name": "metallic-asteroid-crushing",
     "icon": "__space-age__/graphics/icons/metallic-asteroid-crushing.png",
@@ -7877,7 +7877,7 @@
     "allow_productivity": true,
     "allow_decomposition": false
   },
-  "carbonic-asteroid-crushing": {
+  {
     "type": "recipe",
     "name": "carbonic-asteroid-crushing",
     "icon": "__space-age__/graphics/icons/carbonic-asteroid-crushing.png",
@@ -7909,7 +7909,7 @@
     "allow_productivity": true,
     "allow_decomposition": false
   },
-  "oxide-asteroid-crushing": {
+  {
     "type": "recipe",
     "name": "oxide-asteroid-crushing",
     "icon": "__space-age__/graphics/icons/oxide-asteroid-crushing.png",
@@ -7941,7 +7941,7 @@
     "allow_productivity": true,
     "allow_decomposition": false
   },
-  "advanced-metallic-asteroid-crushing": {
+  {
     "type": "recipe",
     "name": "advanced-metallic-asteroid-crushing",
     "localised_name": [
@@ -7981,7 +7981,7 @@
     "allow_productivity": true,
     "allow_decomposition": false
   },
-  "advanced-carbonic-asteroid-crushing": {
+  {
     "type": "recipe",
     "name": "advanced-carbonic-asteroid-crushing",
     "localised_name": [
@@ -8021,7 +8021,7 @@
     "allow_productivity": true,
     "allow_decomposition": false
   },
-  "advanced-oxide-asteroid-crushing": {
+  {
     "type": "recipe",
     "name": "advanced-oxide-asteroid-crushing",
     "localised_name": [
@@ -8061,7 +8061,7 @@
     "allow_productivity": true,
     "allow_decomposition": false
   },
-  "metallic-asteroid-reprocessing": {
+  {
     "type": "recipe",
     "name": "metallic-asteroid-reprocessing",
     "icon": "__space-age__/graphics/icons/metallic-asteroid-reprocessing.png",
@@ -8100,7 +8100,7 @@
     "allow_productivity": false,
     "allow_decomposition": false
   },
-  "carbonic-asteroid-reprocessing": {
+  {
     "type": "recipe",
     "name": "carbonic-asteroid-reprocessing",
     "icon": "__space-age__/graphics/icons/carbonic-asteroid-reprocessing.png",
@@ -8139,7 +8139,7 @@
     "allow_productivity": false,
     "allow_decomposition": false
   },
-  "oxide-asteroid-reprocessing": {
+  {
     "type": "recipe",
     "name": "oxide-asteroid-reprocessing",
     "icon": "__space-age__/graphics/icons/oxide-asteroid-reprocessing.png",
@@ -8178,7 +8178,7 @@
     "allow_productivity": false,
     "allow_decomposition": false
   },
-  "thruster-fuel": {
+  {
     "type": "recipe",
     "name": "thruster-fuel",
     "category": "chemistry",
@@ -8242,7 +8242,7 @@
       }
     }
   },
-  "thruster-oxidizer": {
+  {
     "type": "recipe",
     "name": "thruster-oxidizer",
     "category": "chemistry",
@@ -8306,7 +8306,7 @@
       }
     }
   },
-  "ice-melting": {
+  {
     "type": "recipe",
     "name": "ice-melting",
     "icon": "__space-age__/graphics/icons/fluid/ice-melting.png",
@@ -8359,7 +8359,7 @@
     },
     "show_amount_in_title": false
   },
-  "advanced-thruster-fuel": {
+  {
     "type": "recipe",
     "name": "advanced-thruster-fuel",
     "icon": "__space-age__/graphics/icons/advanced-thruster-fuel.png",
@@ -8433,7 +8433,7 @@
       }
     }
   },
-  "advanced-thruster-oxidizer": {
+  {
     "type": "recipe",
     "name": "advanced-thruster-oxidizer",
     "icon": "__space-age__/graphics/icons/advanced-thruster-oxidizer.png",
@@ -8507,7 +8507,7 @@
       }
     }
   },
-  "acid-neutralisation": {
+  {
     "type": "recipe",
     "name": "acid-neutralisation",
     "icon": "__space-age__/graphics/icons/fluid/acid-neutralisation.png",
@@ -8574,7 +8574,7 @@
       }
     }
   },
-  "steam-condensation": {
+  {
     "type": "recipe",
     "name": "steam-condensation",
     "icon": "__space-age__/graphics/icons/fluid/steam-condensation.png",
@@ -8631,7 +8631,7 @@
       }
     }
   },
-  "carbon": {
+  {
     "type": "recipe",
     "name": "carbon",
     "icon": "__space-age__/graphics/icons/carbon.png",
@@ -8687,7 +8687,7 @@
       }
     }
   },
-  "tungsten-carbide": {
+  {
     "type": "recipe",
     "name": "tungsten-carbide",
     "category": "crafting-with-fluid",
@@ -8721,7 +8721,7 @@
     ],
     "allow_productivity": true
   },
-  "foundry": {
+  {
     "type": "recipe",
     "name": "foundry",
     "category": "metallurgy-or-assembling",
@@ -8769,7 +8769,7 @@
       }
     ]
   },
-  "molten-iron-from-lava": {
+  {
     "type": "recipe",
     "name": "molten-iron-from-lava",
     "icon": "__space-age__/graphics/icons/fluid/molten-iron-from-lava.png",
@@ -8804,7 +8804,7 @@
     ],
     "allow_productivity": true
   },
-  "molten-copper-from-lava": {
+  {
     "type": "recipe",
     "name": "molten-copper-from-lava",
     "icon": "__space-age__/graphics/icons/fluid/molten-copper-from-lava.png",
@@ -8839,7 +8839,7 @@
     ],
     "allow_productivity": true
   },
-  "molten-iron": {
+  {
     "type": "recipe",
     "name": "molten-iron",
     "category": "metallurgy",
@@ -8870,7 +8870,7 @@
     "hide_from_signal_gui": false,
     "main_product": "molten-iron"
   },
-  "molten-copper": {
+  {
     "type": "recipe",
     "name": "molten-copper",
     "category": "metallurgy",
@@ -8901,7 +8901,7 @@
     "allow_productivity": true,
     "main_product": "molten-copper"
   },
-  "casting-iron": {
+  {
     "type": "recipe",
     "name": "casting-iron",
     "category": "metallurgy",
@@ -8928,7 +8928,7 @@
     ],
     "allow_productivity": true
   },
-  "casting-steel": {
+  {
     "type": "recipe",
     "name": "casting-steel",
     "category": "metallurgy",
@@ -8955,7 +8955,7 @@
     ],
     "allow_productivity": true
   },
-  "casting-copper": {
+  {
     "type": "recipe",
     "name": "casting-copper",
     "category": "metallurgy",
@@ -8982,7 +8982,7 @@
     ],
     "allow_productivity": true
   },
-  "casting-iron-gear-wheel": {
+  {
     "type": "recipe",
     "name": "casting-iron-gear-wheel",
     "category": "metallurgy",
@@ -9009,7 +9009,7 @@
     ],
     "allow_productivity": true
   },
-  "casting-iron-stick": {
+  {
     "type": "recipe",
     "name": "casting-iron-stick",
     "category": "metallurgy",
@@ -9036,7 +9036,7 @@
     ],
     "allow_productivity": true
   },
-  "casting-pipe": {
+  {
     "type": "recipe",
     "name": "casting-pipe",
     "category": "metallurgy",
@@ -9063,7 +9063,7 @@
     ],
     "allow_productivity": false
   },
-  "casting-pipe-to-ground": {
+  {
     "type": "recipe",
     "name": "casting-pipe-to-ground",
     "category": "metallurgy",
@@ -9095,7 +9095,7 @@
     ],
     "allow_productivity": false
   },
-  "casting-low-density-structure": {
+  {
     "type": "recipe",
     "name": "casting-low-density-structure",
     "category": "metallurgy",
@@ -9131,7 +9131,7 @@
     ],
     "allow_productivity": true
   },
-  "concrete-from-molten-iron": {
+  {
     "type": "recipe",
     "name": "concrete-from-molten-iron",
     "category": "metallurgy",
@@ -9167,7 +9167,7 @@
     ],
     "allow_productivity": true
   },
-  "casting-copper-cable": {
+  {
     "type": "recipe",
     "name": "casting-copper-cable",
     "category": "metallurgy",
@@ -9194,7 +9194,7 @@
     ],
     "allow_productivity": true
   },
-  "tungsten-plate": {
+  {
     "type": "recipe",
     "name": "tungsten-plate",
     "category": "metallurgy",
@@ -9223,7 +9223,7 @@
     ],
     "allow_productivity": true
   },
-  "turbo-transport-belt": {
+  {
     "type": "recipe",
     "name": "turbo-transport-belt",
     "category": "metallurgy",
@@ -9260,7 +9260,7 @@
       }
     ]
   },
-  "turbo-underground-belt": {
+  {
     "type": "recipe",
     "name": "turbo-underground-belt",
     "energy_required": 2,
@@ -9298,7 +9298,7 @@
       }
     ]
   },
-  "turbo-splitter": {
+  {
     "type": "recipe",
     "name": "turbo-splitter",
     "category": "metallurgy",
@@ -9341,7 +9341,7 @@
       }
     ]
   },
-  "turbo-loader": {
+  {
     "type": "recipe",
     "name": "turbo-loader",
     "enabled": false,
@@ -9367,7 +9367,7 @@
       }
     ]
   },
-  "big-mining-drill": {
+  {
     "type": "recipe",
     "name": "big-mining-drill",
     "category": "metallurgy",
@@ -9415,7 +9415,7 @@
       }
     ]
   },
-  "mech-armor": {
+  {
     "type": "recipe",
     "name": "mech-armor",
     "enabled": false,
@@ -9455,7 +9455,7 @@
       }
     ]
   },
-  "railgun": {
+  {
     "type": "recipe",
     "name": "railgun",
     "category": "cryogenics",
@@ -9517,7 +9517,7 @@
       }
     }
   },
-  "railgun-turret": {
+  {
     "type": "recipe",
     "name": "railgun-turret",
     "category": "cryogenics",
@@ -9584,7 +9584,7 @@
       }
     }
   },
-  "railgun-ammo": {
+  {
     "type": "recipe",
     "name": "railgun-ammo",
     "enabled": false,
@@ -9614,7 +9614,7 @@
       }
     ]
   },
-  "agricultural-tower": {
+  {
     "type": "recipe",
     "name": "agricultural-tower",
     "energy_required": 10,
@@ -9649,7 +9649,7 @@
     ],
     "enabled": false
   },
-  "biochamber": {
+  {
     "type": "recipe",
     "name": "biochamber",
     "category": "organic-or-assembling",
@@ -9697,7 +9697,7 @@
     ],
     "enabled": false
   },
-  "burnt-spoilage": {
+  {
     "type": "recipe",
     "name": "burnt-spoilage",
     "icon": "__space-age__/graphics/icons/burnt-spoilage.png",
@@ -9736,7 +9736,7 @@
       }
     }
   },
-  "coal-synthesis": {
+  {
     "type": "recipe",
     "name": "coal-synthesis",
     "category": "chemistry",
@@ -9798,7 +9798,7 @@
       }
     }
   },
-  "capture-robot-rocket": {
+  {
     "type": "recipe",
     "name": "capture-robot-rocket",
     "energy_required": 10,
@@ -9833,7 +9833,7 @@
     ],
     "enabled": false
   },
-  "biolab": {
+  {
     "type": "recipe",
     "name": "biolab",
     "energy_required": 10,
@@ -9873,7 +9873,7 @@
     ],
     "enabled": false
   },
-  "captive-biter-spawner": {
+  {
     "type": "recipe",
     "name": "captive-biter-spawner",
     "category": "cryogenics",
@@ -9910,7 +9910,7 @@
       }
     ]
   },
-  "biter-egg": {
+  {
     "type": "recipe",
     "name": "biter-egg",
     "icon": "__space-age__/graphics/icons/biter-egg.png",
@@ -9929,7 +9929,7 @@
     ],
     "enabled": false
   },
-  "fish-breeding": {
+  {
     "type": "recipe",
     "name": "fish-breeding",
     "icon": "__space-age__/graphics/icons/fish-breeding.png",
@@ -9990,7 +9990,7 @@
     },
     "show_amount_in_title": false
   },
-  "nutrients-from-fish": {
+  {
     "type": "recipe",
     "name": "nutrients-from-fish",
     "icon": "__space-age__/graphics/icons/nutrients-from-fish.png",
@@ -10030,7 +10030,7 @@
       ]
     }
   },
-  "nutrients-from-biter-egg": {
+  {
     "type": "recipe",
     "name": "nutrients-from-biter-egg",
     "icon": "__space-age__/graphics/icons/nutrients-from-biter-egg.png",
@@ -10070,7 +10070,7 @@
       }
     }
   },
-  "scrap-recycling": {
+  {
     "type": "recipe",
     "name": "scrap-recycling",
     "icons": [
@@ -10184,7 +10184,7 @@
       }
     ]
   },
-  "lightning-rod": {
+  {
     "type": "recipe",
     "name": "lightning-rod",
     "category": "electronics",
@@ -10222,7 +10222,7 @@
     ],
     "enabled": false
   },
-  "holmium-solution": {
+  {
     "type": "recipe",
     "name": "holmium-solution",
     "category": "chemistry",
@@ -10283,7 +10283,7 @@
       }
     }
   },
-  "holmium-plate": {
+  {
     "type": "recipe",
     "name": "holmium-plate",
     "category": "crafting-with-fluid-or-metallurgy",
@@ -10307,7 +10307,7 @@
     ],
     "allow_productivity": true
   },
-  "electromagnetic-plant": {
+  {
     "type": "recipe",
     "name": "electromagnetic-plant",
     "category": "electronics-or-assembling",
@@ -10349,7 +10349,7 @@
     ],
     "enabled": false
   },
-  "superconductor": {
+  {
     "type": "recipe",
     "name": "superconductor",
     "category": "electromagnetics",
@@ -10388,7 +10388,7 @@
     "allow_productivity": true,
     "enabled": false
   },
-  "supercapacitor": {
+  {
     "type": "recipe",
     "name": "supercapacitor",
     "category": "electromagnetics",
@@ -10432,7 +10432,7 @@
     "allow_productivity": true,
     "enabled": false
   },
-  "electrolyte": {
+  {
     "type": "recipe",
     "name": "electrolyte",
     "category": "electromagnetics",
@@ -10466,7 +10466,7 @@
     "allow_productivity": true,
     "enabled": false
   },
-  "lightning-collector": {
+  {
     "type": "recipe",
     "name": "lightning-collector",
     "category": "electromagnetics",
@@ -10509,7 +10509,7 @@
     ],
     "enabled": false
   },
-  "teslagun": {
+  {
     "type": "recipe",
     "name": "teslagun",
     "category": "electromagnetics",
@@ -10545,7 +10545,7 @@
     ],
     "enabled": false
   },
-  "tesla-turret": {
+  {
     "type": "recipe",
     "name": "tesla-turret",
     "category": "electromagnetics",
@@ -10586,7 +10586,7 @@
     ],
     "enabled": false
   },
-  "tesla-ammo": {
+  {
     "type": "recipe",
     "name": "tesla-ammo",
     "category": "electromagnetics",
@@ -10617,7 +10617,7 @@
     ],
     "enabled": false
   },
-  "heating-tower": {
+  {
     "type": "recipe",
     "name": "heating-tower",
     "energy_required": 10,
@@ -10647,7 +10647,7 @@
     ],
     "enabled": false
   },
-  "lithium": {
+  {
     "type": "recipe",
     "name": "lithium",
     "category": "chemistry-or-cryogenics",
@@ -10707,7 +10707,7 @@
       }
     }
   },
-  "lithium-plate": {
+  {
     "type": "recipe",
     "name": "lithium-plate",
     "category": "smelting",
@@ -10731,7 +10731,7 @@
     "allow_productivity": true,
     "enabled": false
   },
-  "fluoroketone": {
+  {
     "type": "recipe",
     "name": "fluoroketone",
     "category": "cryogenics",
@@ -10797,7 +10797,7 @@
       }
     }
   },
-  "fluoroketone-cooling": {
+  {
     "type": "recipe",
     "name": "fluoroketone-cooling",
     "icon": "__space-age__/graphics/icons/fluid/fluoroketone-cooling.png",
@@ -10856,7 +10856,7 @@
       }
     }
   },
-  "cryogenic-plant": {
+  {
     "type": "recipe",
     "name": "cryogenic-plant",
     "category": "cryogenics-or-assembling",
@@ -10925,7 +10925,7 @@
       }
     }
   },
-  "quantum-processor": {
+  {
     "type": "recipe",
     "name": "quantum-processor",
     "category": "electromagnetics",
@@ -11016,7 +11016,7 @@
       }
     }
   },
-  "ammoniacal-solution-separation": {
+  {
     "type": "recipe",
     "name": "ammoniacal-solution-separation",
     "icon": "__space-age__/graphics/icons/fluid/ammoniacal-solution-separation.png",
@@ -11075,7 +11075,7 @@
       }
     }
   },
-  "fusion-reactor-equipment": {
+  {
     "type": "recipe",
     "name": "fusion-reactor-equipment",
     "enabled": false,
@@ -11146,7 +11146,7 @@
       }
     }
   },
-  "fusion-power-cell": {
+  {
     "type": "recipe",
     "name": "fusion-power-cell",
     "category": "cryogenics",
@@ -11206,7 +11206,7 @@
       }
     }
   },
-  "fusion-reactor": {
+  {
     "type": "recipe",
     "name": "fusion-reactor",
     "category": "cryogenics",
@@ -11271,7 +11271,7 @@
       }
     }
   },
-  "fusion-generator": {
+  {
     "type": "recipe",
     "name": "fusion-generator",
     "category": "cryogenics",
@@ -11336,7 +11336,7 @@
       }
     }
   },
-  "ice-platform": {
+  {
     "type": "recipe",
     "name": "ice-platform",
     "always_show_made_in": true,
@@ -11363,7 +11363,7 @@
     ],
     "enabled": false
   },
-  "solid-fuel-from-ammonia": {
+  {
     "type": "recipe",
     "name": "solid-fuel-from-ammonia",
     "icon": "__space-age__/graphics/icons/solid-fuel-from-ammonia.png",
@@ -11419,7 +11419,7 @@
       }
     }
   },
-  "ammonia-rocket-fuel": {
+  {
     "type": "recipe",
     "name": "ammonia-rocket-fuel",
     "localised_name": [
@@ -11483,7 +11483,7 @@
       }
     }
   },
-  "foundation": {
+  {
     "type": "recipe",
     "name": "foundation",
     "energy_required": 30,
@@ -11524,7 +11524,7 @@
       }
     ]
   },
-  "promethium-science-pack": {
+  {
     "type": "recipe",
     "name": "promethium-science-pack",
     "energy_required": 5,
@@ -11589,7 +11589,7 @@
       }
     }
   },
-  "wood-processing": {
+  {
     "type": "recipe",
     "name": "wood-processing",
     "icon": "__base__/graphics/icons/tree-08.png",
@@ -11635,7 +11635,7 @@
       }
     }
   },
-  "water-barrel": {
+  {
     "type": "recipe",
     "name": "water-barrel",
     "localised_name": [
@@ -11712,7 +11712,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-water-barrel": {
+  {
     "type": "recipe",
     "name": "empty-water-barrel",
     "localised_name": [
@@ -11789,7 +11789,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "sulfuric-acid-barrel": {
+  {
     "type": "recipe",
     "name": "sulfuric-acid-barrel",
     "localised_name": [
@@ -11866,7 +11866,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-sulfuric-acid-barrel": {
+  {
     "type": "recipe",
     "name": "empty-sulfuric-acid-barrel",
     "localised_name": [
@@ -11943,7 +11943,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "crude-oil-barrel": {
+  {
     "type": "recipe",
     "name": "crude-oil-barrel",
     "localised_name": [
@@ -12020,7 +12020,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-crude-oil-barrel": {
+  {
     "type": "recipe",
     "name": "empty-crude-oil-barrel",
     "localised_name": [
@@ -12097,7 +12097,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "heavy-oil-barrel": {
+  {
     "type": "recipe",
     "name": "heavy-oil-barrel",
     "localised_name": [
@@ -12174,7 +12174,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-heavy-oil-barrel": {
+  {
     "type": "recipe",
     "name": "empty-heavy-oil-barrel",
     "localised_name": [
@@ -12251,7 +12251,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "light-oil-barrel": {
+  {
     "type": "recipe",
     "name": "light-oil-barrel",
     "localised_name": [
@@ -12328,7 +12328,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-light-oil-barrel": {
+  {
     "type": "recipe",
     "name": "empty-light-oil-barrel",
     "localised_name": [
@@ -12405,7 +12405,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "petroleum-gas-barrel": {
+  {
     "type": "recipe",
     "name": "petroleum-gas-barrel",
     "localised_name": [
@@ -12482,7 +12482,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-petroleum-gas-barrel": {
+  {
     "type": "recipe",
     "name": "empty-petroleum-gas-barrel",
     "localised_name": [
@@ -12559,7 +12559,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "lubricant-barrel": {
+  {
     "type": "recipe",
     "name": "lubricant-barrel",
     "localised_name": [
@@ -12636,7 +12636,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-lubricant-barrel": {
+  {
     "type": "recipe",
     "name": "empty-lubricant-barrel",
     "localised_name": [
@@ -12713,7 +12713,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "fluoroketone-cold-barrel": {
+  {
     "type": "recipe",
     "name": "fluoroketone-cold-barrel",
     "localised_name": [
@@ -12790,7 +12790,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-fluoroketone-cold-barrel": {
+  {
     "type": "recipe",
     "name": "empty-fluoroketone-cold-barrel",
     "localised_name": [
@@ -12867,7 +12867,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "fluoroketone-hot-barrel": {
+  {
     "type": "recipe",
     "name": "fluoroketone-hot-barrel",
     "localised_name": [
@@ -12944,7 +12944,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "empty-fluoroketone-hot-barrel": {
+  {
     "type": "recipe",
     "name": "empty-fluoroketone-hot-barrel",
     "localised_name": [
@@ -13021,7 +13021,7 @@
     "factoriopedia_alternative": "barrel",
     "hide_from_signal_gui": false
   },
-  "speed-module-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13096,7 +13096,7 @@
       ]
     }
   },
-  "speed-module-2-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13177,7 +13177,7 @@
       ]
     }
   },
-  "speed-module-3-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13264,7 +13264,7 @@
       ]
     }
   },
-  "productivity-module-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13339,7 +13339,7 @@
       ]
     }
   },
-  "productivity-module-2-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13420,7 +13420,7 @@
       ]
     }
   },
-  "productivity-module-3-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13507,7 +13507,7 @@
       ]
     }
   },
-  "efficiency-module-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13582,7 +13582,7 @@
       ]
     }
   },
-  "efficiency-module-2-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13663,7 +13663,7 @@
       ]
     }
   },
-  "efficiency-module-3-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13750,7 +13750,7 @@
       ]
     }
   },
-  "bulk-inserter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13837,7 +13837,7 @@
       ]
     }
   },
-  "barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13906,7 +13906,7 @@
       ]
     }
   },
-  "night-vision-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -13981,7 +13981,7 @@
       ]
     }
   },
-  "belt-immunity-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14056,7 +14056,7 @@
       ]
     }
   },
-  "energy-shield-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14131,7 +14131,7 @@
       ]
     }
   },
-  "energy-shield-mk2-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14212,7 +14212,7 @@
       ]
     }
   },
-  "battery-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14287,7 +14287,7 @@
       ]
     }
   },
-  "battery-mk2-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14368,7 +14368,7 @@
       ]
     }
   },
-  "solar-panel-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14449,7 +14449,7 @@
       ]
     }
   },
-  "fission-reactor-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14530,7 +14530,7 @@
       ]
     }
   },
-  "personal-laser-defense-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14611,7 +14611,7 @@
       ]
     }
   },
-  "discharge-defense-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14692,7 +14692,7 @@
       ]
     }
   },
-  "exoskeleton-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14773,7 +14773,7 @@
       ]
     }
   },
-  "personal-roboport-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14860,7 +14860,7 @@
       ]
     }
   },
-  "personal-roboport-mk2-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -14941,7 +14941,7 @@
       ]
     }
   },
-  "laser-turret-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15022,7 +15022,7 @@
       ]
     }
   },
-  "flamethrower-turret-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15109,7 +15109,7 @@
       ]
     }
   },
-  "artillery-turret-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15196,7 +15196,7 @@
       ]
     }
   },
-  "gun-turret-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15277,7 +15277,7 @@
       ]
     }
   },
-  "wooden-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15346,7 +15346,7 @@
       ]
     }
   },
-  "display-panel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15422,7 +15422,7 @@
       ]
     }
   },
-  "iron-stick-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15491,7 +15491,7 @@
       ]
     }
   },
-  "stone-furnace-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15560,7 +15560,7 @@
       ]
     }
   },
-  "boiler-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15635,7 +15635,7 @@
       ]
     }
   },
-  "steam-engine-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15716,7 +15716,7 @@
       ]
     }
   },
-  "iron-gear-wheel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15785,7 +15785,7 @@
       ]
     }
   },
-  "electronic-circuit-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15860,7 +15860,7 @@
       ]
     }
   },
-  "transport-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -15935,7 +15935,7 @@
       ]
     }
   },
-  "electric-mining-drill-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16016,7 +16016,7 @@
       ]
     }
   },
-  "burner-mining-drill-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16097,7 +16097,7 @@
       ]
     }
   },
-  "inserter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16178,7 +16178,7 @@
       ]
     }
   },
-  "fast-inserter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16259,7 +16259,7 @@
       ]
     }
   },
-  "long-handed-inserter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16340,7 +16340,7 @@
       ]
     }
   },
-  "burner-inserter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16415,7 +16415,7 @@
       ]
     }
   },
-  "pipe-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16484,7 +16484,7 @@
       ]
     }
   },
-  "offshore-pump-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16559,7 +16559,7 @@
       ]
     }
   },
-  "copper-cable-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16628,7 +16628,7 @@
       ]
     }
   },
-  "small-electric-pole-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16703,7 +16703,7 @@
       ]
     }
   },
-  "pistol-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16778,7 +16778,7 @@
       ]
     }
   },
-  "submachine-gun-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16859,7 +16859,7 @@
       ]
     }
   },
-  "firearm-magazine-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16928,7 +16928,7 @@
       ]
     }
   },
-  "light-armor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -16997,7 +16997,7 @@
       ]
     }
   },
-  "radar-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17078,7 +17078,7 @@
       ]
     }
   },
-  "small-lamp-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17159,7 +17159,7 @@
       ]
     }
   },
-  "pipe-to-ground-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17234,7 +17234,7 @@
       ]
     }
   },
-  "assembling-machine-1-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17315,7 +17315,7 @@
       ]
     }
   },
-  "repair-pack-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17390,7 +17390,7 @@
       ]
     }
   },
-  "lab-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17471,7 +17471,7 @@
       ]
     }
   },
-  "stone-wall-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17540,7 +17540,7 @@
       ]
     }
   },
-  "assembling-machine-2-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17627,7 +17627,7 @@
       ]
     }
   },
-  "splitter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17708,7 +17708,7 @@
       ]
     }
   },
-  "underground-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17783,7 +17783,7 @@
       ]
     }
   },
-  "loader-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17876,7 +17876,7 @@
       ]
     }
   },
-  "car-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -17957,7 +17957,7 @@
       ]
     }
   },
-  "engine-unit-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18038,7 +18038,7 @@
       ]
     }
   },
-  "iron-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18107,7 +18107,7 @@
       ]
     }
   },
-  "big-electric-pole-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18188,7 +18188,7 @@
       ]
     }
   },
-  "medium-electric-pole-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18269,7 +18269,7 @@
       ]
     }
   },
-  "shotgun-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18356,7 +18356,7 @@
       ]
     }
   },
-  "shotgun-shell-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18431,7 +18431,7 @@
       ]
     }
   },
-  "piercing-rounds-magazine-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18512,7 +18512,7 @@
       ]
     }
   },
-  "grenade-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18587,7 +18587,7 @@
       ]
     }
   },
-  "steel-furnace-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18662,7 +18662,7 @@
       ]
     }
   },
-  "gate-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18743,7 +18743,7 @@
       ]
     }
   },
-  "heavy-armor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18818,7 +18818,7 @@
       ]
     }
   },
-  "steel-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18887,7 +18887,7 @@
       ]
     }
   },
-  "fast-underground-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -18962,7 +18962,7 @@
       ]
     }
   },
-  "fast-splitter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19043,7 +19043,7 @@
       ]
     }
   },
-  "concrete-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19116,7 +19116,7 @@
       ]
     }
   },
-  "hazard-concrete-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19185,7 +19185,7 @@
       ]
     }
   },
-  "refined-concrete-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19264,7 +19264,7 @@
       ]
     }
   },
-  "refined-hazard-concrete-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19333,7 +19333,7 @@
       ]
     }
   },
-  "fast-transport-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19408,7 +19408,7 @@
       ]
     }
   },
-  "solar-panel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19489,7 +19489,7 @@
       ]
     }
   },
-  "rail-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19570,7 +19570,7 @@
       ]
     }
   },
-  "locomotive-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19651,7 +19651,7 @@
       ]
     }
   },
-  "cargo-wagon-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19732,7 +19732,7 @@
       ]
     }
   },
-  "rail-signal-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19807,7 +19807,7 @@
       ]
     }
   },
-  "rail-chain-signal-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19882,7 +19882,7 @@
       ]
     }
   },
-  "train-stop-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -19969,7 +19969,7 @@
       ]
     }
   },
-  "arithmetic-combinator-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20044,7 +20044,7 @@
       ]
     }
   },
-  "decider-combinator-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20119,7 +20119,7 @@
       ]
     }
   },
-  "constant-combinator-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20194,7 +20194,7 @@
       ]
     }
   },
-  "selector-combinator-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20269,7 +20269,7 @@
       ]
     }
   },
-  "power-switch-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20350,7 +20350,7 @@
       ]
     }
   },
-  "programmable-speaker-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20437,7 +20437,7 @@
       ]
     }
   },
-  "poison-capsule-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20518,7 +20518,7 @@
       ]
     }
   },
-  "slowdown-capsule-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20599,7 +20599,7 @@
       ]
     }
   },
-  "cluster-grenade-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20680,7 +20680,7 @@
       ]
     }
   },
-  "defender-capsule-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20761,7 +20761,7 @@
       ]
     }
   },
-  "distractor-capsule-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20836,7 +20836,7 @@
       ]
     }
   },
-  "destroyer-capsule-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -20917,7 +20917,7 @@
       ]
     }
   },
-  "cliff-explosives-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21004,7 +21004,7 @@
       ]
     }
   },
-  "uranium-rounds-magazine-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21079,7 +21079,7 @@
       ]
     }
   },
-  "rocket-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21154,7 +21154,7 @@
       ]
     }
   },
-  "explosive-rocket-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21229,7 +21229,7 @@
       ]
     }
   },
-  "atomic-bomb-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21310,7 +21310,7 @@
       ]
     }
   },
-  "piercing-shotgun-shell-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21391,7 +21391,7 @@
       ]
     }
   },
-  "cannon-shell-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21472,7 +21472,7 @@
       ]
     }
   },
-  "explosive-cannon-shell-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21553,7 +21553,7 @@
       ]
     }
   },
-  "uranium-cannon-shell-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21628,7 +21628,7 @@
       ]
     }
   },
-  "explosive-uranium-cannon-shell-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21703,7 +21703,7 @@
       ]
     }
   },
-  "artillery-shell-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21790,7 +21790,7 @@
       ]
     }
   },
-  "express-transport-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21863,7 +21863,7 @@
       ]
     }
   },
-  "assembling-machine-3-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -21938,7 +21938,7 @@
       ]
     }
   },
-  "tank-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22025,7 +22025,7 @@
       ]
     }
   },
-  "spidertron-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22118,7 +22118,7 @@
       ]
     }
   },
-  "fluid-wagon-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22205,7 +22205,7 @@
       ]
     }
   },
-  "artillery-wagon-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22298,7 +22298,7 @@
       ]
     }
   },
-  "modular-armor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22373,7 +22373,7 @@
       ]
     }
   },
-  "power-armor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22454,7 +22454,7 @@
       ]
     }
   },
-  "power-armor-mk2-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22547,7 +22547,7 @@
       ]
     }
   },
-  "flamethrower-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22622,7 +22622,7 @@
       ]
     }
   },
-  "land-mine-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22697,7 +22697,7 @@
       ]
     }
   },
-  "rocket-launcher-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22778,7 +22778,7 @@
       ]
     }
   },
-  "combat-shotgun-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22865,7 +22865,7 @@
       ]
     }
   },
-  "express-underground-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -22938,7 +22938,7 @@
       ]
     }
   },
-  "fast-loader-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23013,7 +23013,7 @@
       ]
     }
   },
-  "express-loader-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23088,7 +23088,7 @@
       ]
     }
   },
-  "express-splitter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23167,7 +23167,7 @@
       ]
     }
   },
-  "advanced-circuit-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23248,7 +23248,7 @@
       ]
     }
   },
-  "processing-unit-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23321,7 +23321,7 @@
       ]
     }
   },
-  "logistic-robot-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23396,7 +23396,7 @@
       ]
     }
   },
-  "construction-robot-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23471,7 +23471,7 @@
       ]
     }
   },
-  "passive-provider-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23552,7 +23552,7 @@
       ]
     }
   },
-  "active-provider-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23633,7 +23633,7 @@
       ]
     }
   },
-  "storage-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23714,7 +23714,7 @@
       ]
     }
   },
-  "buffer-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23795,7 +23795,7 @@
       ]
     }
   },
-  "requester-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23876,7 +23876,7 @@
       ]
     }
   },
-  "rocket-silo-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -23969,7 +23969,7 @@
       ]
     }
   },
-  "cargo-landing-pad-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24050,7 +24050,7 @@
       ]
     }
   },
-  "roboport-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24131,7 +24131,7 @@
       ]
     }
   },
-  "substation-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24212,7 +24212,7 @@
       ]
     }
   },
-  "accumulator-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24287,7 +24287,7 @@
       ]
     }
   },
-  "electric-furnace-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24368,7 +24368,7 @@
       ]
     }
   },
-  "beacon-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24455,7 +24455,7 @@
       ]
     }
   },
-  "pumpjack-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24542,7 +24542,7 @@
       ]
     }
   },
-  "oil-refinery-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24635,7 +24635,7 @@
       ]
     }
   },
-  "electric-engine-unit-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24708,7 +24708,7 @@
       ]
     }
   },
-  "flying-robot-frame-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24795,7 +24795,7 @@
       ]
     }
   },
-  "battery-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24868,7 +24868,7 @@
       ]
     }
   },
-  "storage-tank-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -24943,7 +24943,7 @@
       ]
     }
   },
-  "pump-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25024,7 +25024,7 @@
       ]
     }
   },
-  "chemical-plant-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25111,7 +25111,7 @@
       ]
     }
   },
-  "low-density-structure-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25192,7 +25192,7 @@
       ]
     }
   },
-  "rocket-fuel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25259,7 +25259,7 @@
       ]
     }
   },
-  "rocket-part-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25340,7 +25340,7 @@
       ]
     }
   },
-  "nuclear-reactor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25427,7 +25427,7 @@
       ]
     }
   },
-  "centrifuge-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25514,7 +25514,7 @@
       ]
     }
   },
-  "nuclear-fuel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25589,7 +25589,7 @@
       ]
     }
   },
-  "heat-exchanger-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25670,7 +25670,7 @@
       ]
     }
   },
-  "heat-pipe-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25745,7 +25745,7 @@
       ]
     }
   },
-  "steam-turbine-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25826,7 +25826,7 @@
       ]
     }
   },
-  "rail-support-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25901,7 +25901,7 @@
       ]
     }
   },
-  "rail-ramp-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -25982,7 +25982,7 @@
       ]
     }
   },
-  "quality-module-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26057,7 +26057,7 @@
       ]
     }
   },
-  "quality-module-2-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26138,7 +26138,7 @@
       ]
     }
   },
-  "quality-module-3-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26225,7 +26225,7 @@
       ]
     }
   },
-  "recycler-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26312,7 +26312,7 @@
       ]
     }
   },
-  "artificial-yumako-soil-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26393,7 +26393,7 @@
       ]
     }
   },
-  "overgrowth-yumako-soil-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26478,7 +26478,7 @@
       ]
     }
   },
-  "artificial-jellynut-soil-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26559,7 +26559,7 @@
       ]
     }
   },
-  "overgrowth-jellynut-soil-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26644,7 +26644,7 @@
       ]
     }
   },
-  "nutrients-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26713,7 +26713,7 @@
       ]
     }
   },
-  "toolbelt-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26788,7 +26788,7 @@
       ]
     }
   },
-  "battery-mk3-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26863,7 +26863,7 @@
       ]
     }
   },
-  "space-platform-foundation-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -26938,7 +26938,7 @@
       ]
     }
   },
-  "stack-inserter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27025,7 +27025,7 @@
       ]
     }
   },
-  "rocket-turret-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27118,7 +27118,7 @@
       ]
     }
   },
-  "infinity-chest-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27193,7 +27193,7 @@
       ]
     }
   },
-  "infinity-pipe-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27273,7 +27273,7 @@
       ]
     }
   },
-  "heat-interface-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27348,7 +27348,7 @@
       ]
     }
   },
-  "space-platform-starter-pack-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27429,7 +27429,7 @@
       ]
     }
   },
-  "cargo-bay-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27511,7 +27511,7 @@
       ]
     }
   },
-  "asteroid-collector-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27592,7 +27592,7 @@
       ]
     }
   },
-  "crusher-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27673,7 +27673,7 @@
       ]
     }
   },
-  "thruster-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27754,7 +27754,7 @@
       ]
     }
   },
-  "foundry-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27839,7 +27839,7 @@
       ]
     }
   },
-  "turbo-transport-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27912,7 +27912,7 @@
       ]
     }
   },
-  "turbo-underground-belt-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -27985,7 +27985,7 @@
       ]
     }
   },
-  "turbo-splitter-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28064,7 +28064,7 @@
       ]
     }
   },
-  "turbo-loader-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28139,7 +28139,7 @@
       ]
     }
   },
-  "big-mining-drill-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28224,7 +28224,7 @@
       ]
     }
   },
-  "mech-armor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28317,7 +28317,7 @@
       ]
     }
   },
-  "railgun-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28396,7 +28396,7 @@
       ]
     }
   },
-  "railgun-turret-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28481,7 +28481,7 @@
       ]
     }
   },
-  "railgun-ammo-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28562,7 +28562,7 @@
       ]
     }
   },
-  "agricultural-tower-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28649,7 +28649,7 @@
       ]
     }
   },
-  "biochamber-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28742,7 +28742,7 @@
       ]
     }
   },
-  "capture-robot-rocket-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28829,7 +28829,7 @@
       ]
     }
   },
-  "lightning-rod-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28910,7 +28910,7 @@
       ]
     }
   },
-  "electromagnetic-plant-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -28997,7 +28997,7 @@
       ]
     }
   },
-  "supercapacitor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29082,7 +29082,7 @@
       ]
     }
   },
-  "lightning-collector-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29161,7 +29161,7 @@
       ]
     }
   },
-  "teslagun-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29240,7 +29240,7 @@
       ]
     }
   },
-  "tesla-turret-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29325,7 +29325,7 @@
       ]
     }
   },
-  "tesla-ammo-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29398,7 +29398,7 @@
       ]
     }
   },
-  "heating-tower-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29479,7 +29479,7 @@
       ]
     }
   },
-  "cryogenic-plant-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29566,7 +29566,7 @@
       ]
     }
   },
-  "quantum-processor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29657,7 +29657,7 @@
       ]
     }
   },
-  "fusion-reactor-equipment-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29756,7 +29756,7 @@
       ]
     }
   },
-  "fusion-reactor-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29837,7 +29837,7 @@
       ]
     }
   },
-  "fusion-generator-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29918,7 +29918,7 @@
       ]
     }
   },
-  "ice-platform-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -29985,7 +29985,7 @@
       ]
     }
   },
-  "foundation-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30070,7 +30070,7 @@
       ]
     }
   },
-  "water-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30163,7 +30163,7 @@
       ]
     }
   },
-  "sulfuric-acid-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30256,7 +30256,7 @@
       ]
     }
   },
-  "crude-oil-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30349,7 +30349,7 @@
       ]
     }
   },
-  "heavy-oil-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30442,7 +30442,7 @@
       ]
     }
   },
-  "light-oil-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30535,7 +30535,7 @@
       ]
     }
   },
-  "petroleum-gas-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30628,7 +30628,7 @@
       ]
     }
   },
-  "lubricant-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30721,7 +30721,7 @@
       ]
     }
   },
-  "fluoroketone-cold-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30814,7 +30814,7 @@
       ]
     }
   },
-  "fluoroketone-hot-barrel-recycling": {
+  {
     "type": "recipe",
     "subgroup": "other",
     "category": "recycling",
@@ -30907,7 +30907,7 @@
       ]
     }
   },
-  "flamethrower-ammo-recycling": {
+  {
     "type": "recipe",
     "name": "flamethrower-ammo-recycling",
     "localised_name": [
@@ -30978,7 +30978,7 @@
       }
     }
   },
-  "blueprint-recycling": {
+  {
     "type": "recipe",
     "name": "blueprint-recycling",
     "localised_name": [
@@ -31049,7 +31049,7 @@
       ]
     }
   },
-  "blueprint-book-recycling": {
+  {
     "type": "recipe",
     "name": "blueprint-book-recycling",
     "localised_name": [
@@ -31120,7 +31120,7 @@
       ]
     }
   },
-  "raw-fish-recycling": {
+  {
     "type": "recipe",
     "name": "raw-fish-recycling",
     "localised_name": [
@@ -31191,7 +31191,7 @@
       ]
     }
   },
-  "discharge-defense-remote-recycling": {
+  {
     "type": "recipe",
     "name": "discharge-defense-remote-recycling",
     "localised_name": [
@@ -31262,7 +31262,7 @@
       ]
     }
   },
-  "artillery-targeting-remote-recycling": {
+  {
     "type": "recipe",
     "name": "artillery-targeting-remote-recycling",
     "localised_name": [
@@ -31333,7 +31333,7 @@
       ]
     }
   },
-  "yumako-recycling": {
+  {
     "type": "recipe",
     "name": "yumako-recycling",
     "localised_name": [
@@ -31404,7 +31404,7 @@
       ]
     }
   },
-  "jellynut-recycling": {
+  {
     "type": "recipe",
     "name": "jellynut-recycling",
     "localised_name": [
@@ -31475,7 +31475,7 @@
       ]
     }
   },
-  "yumako-mash-recycling": {
+  {
     "type": "recipe",
     "name": "yumako-mash-recycling",
     "localised_name": [
@@ -31546,7 +31546,7 @@
       ]
     }
   },
-  "jelly-recycling": {
+  {
     "type": "recipe",
     "name": "jelly-recycling",
     "localised_name": [
@@ -31617,7 +31617,7 @@
       ]
     }
   },
-  "bioflux-recycling": {
+  {
     "type": "recipe",
     "name": "bioflux-recycling",
     "localised_name": [
@@ -31676,7 +31676,7 @@
       }
     }
   },
-  "copy-paste-tool-recycling": {
+  {
     "type": "recipe",
     "name": "copy-paste-tool-recycling",
     "localised_name": [
@@ -31747,7 +31747,7 @@
       ]
     }
   },
-  "cut-paste-tool-recycling": {
+  {
     "type": "recipe",
     "name": "cut-paste-tool-recycling",
     "localised_name": [
@@ -31818,7 +31818,7 @@
       ]
     }
   },
-  "deconstruction-planner-recycling": {
+  {
     "type": "recipe",
     "name": "deconstruction-planner-recycling",
     "localised_name": [
@@ -31889,7 +31889,7 @@
       ]
     }
   },
-  "tank-machine-gun-recycling": {
+  {
     "type": "recipe",
     "name": "tank-machine-gun-recycling",
     "localised_name": [
@@ -31960,7 +31960,7 @@
       ]
     }
   },
-  "tank-flamethrower-recycling": {
+  {
     "type": "recipe",
     "name": "tank-flamethrower-recycling",
     "localised_name": [
@@ -32031,7 +32031,7 @@
       ]
     }
   },
-  "tank-cannon-recycling": {
+  {
     "type": "recipe",
     "name": "tank-cannon-recycling",
     "localised_name": [
@@ -32102,7 +32102,7 @@
       ]
     }
   },
-  "artillery-wagon-cannon-recycling": {
+  {
     "type": "recipe",
     "name": "artillery-wagon-cannon-recycling",
     "localised_name": [
@@ -32173,7 +32173,7 @@
       ]
     }
   },
-  "spidertron-rocket-launcher-1-recycling": {
+  {
     "type": "recipe",
     "name": "spidertron-rocket-launcher-1-recycling",
     "localised_name": [
@@ -32244,7 +32244,7 @@
       ]
     }
   },
-  "spidertron-rocket-launcher-2-recycling": {
+  {
     "type": "recipe",
     "name": "spidertron-rocket-launcher-2-recycling",
     "localised_name": [
@@ -32315,7 +32315,7 @@
       ]
     }
   },
-  "spidertron-rocket-launcher-3-recycling": {
+  {
     "type": "recipe",
     "name": "spidertron-rocket-launcher-3-recycling",
     "localised_name": [
@@ -32386,7 +32386,7 @@
       ]
     }
   },
-  "spidertron-rocket-launcher-4-recycling": {
+  {
     "type": "recipe",
     "name": "spidertron-rocket-launcher-4-recycling",
     "localised_name": [
@@ -32457,7 +32457,7 @@
       ]
     }
   },
-  "vehicle-machine-gun-recycling": {
+  {
     "type": "recipe",
     "name": "vehicle-machine-gun-recycling",
     "localised_name": [
@@ -32528,7 +32528,7 @@
       ]
     }
   },
-  "item-unknown-recycling": {
+  {
     "type": "recipe",
     "name": "item-unknown-recycling",
     "localised_name": [
@@ -32599,7 +32599,7 @@
       ]
     }
   },
-  "parameter-0-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-0-recycling",
     "localised_name": [
@@ -32671,7 +32671,7 @@
       ]
     }
   },
-  "parameter-1-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-1-recycling",
     "localised_name": [
@@ -32743,7 +32743,7 @@
       ]
     }
   },
-  "parameter-2-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-2-recycling",
     "localised_name": [
@@ -32815,7 +32815,7 @@
       ]
     }
   },
-  "parameter-3-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-3-recycling",
     "localised_name": [
@@ -32887,7 +32887,7 @@
       ]
     }
   },
-  "parameter-4-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-4-recycling",
     "localised_name": [
@@ -32959,7 +32959,7 @@
       ]
     }
   },
-  "parameter-5-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-5-recycling",
     "localised_name": [
@@ -33031,7 +33031,7 @@
       ]
     }
   },
-  "parameter-6-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-6-recycling",
     "localised_name": [
@@ -33103,7 +33103,7 @@
       ]
     }
   },
-  "parameter-7-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-7-recycling",
     "localised_name": [
@@ -33175,7 +33175,7 @@
       ]
     }
   },
-  "parameter-8-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-8-recycling",
     "localised_name": [
@@ -33247,7 +33247,7 @@
       ]
     }
   },
-  "parameter-9-recycling": {
+  {
     "type": "recipe",
     "name": "parameter-9-recycling",
     "localised_name": [
@@ -33319,7 +33319,7 @@
       ]
     }
   },
-  "stone-brick-recycling": {
+  {
     "type": "recipe",
     "name": "stone-brick-recycling",
     "localised_name": [
@@ -33390,7 +33390,7 @@
       ]
     }
   },
-  "wood-recycling": {
+  {
     "type": "recipe",
     "name": "wood-recycling",
     "localised_name": [
@@ -33461,7 +33461,7 @@
       ]
     }
   },
-  "coal-recycling": {
+  {
     "type": "recipe",
     "name": "coal-recycling",
     "localised_name": [
@@ -33532,7 +33532,7 @@
       ]
     }
   },
-  "stone-recycling": {
+  {
     "type": "recipe",
     "name": "stone-recycling",
     "localised_name": [
@@ -33603,7 +33603,7 @@
       ]
     }
   },
-  "iron-ore-recycling": {
+  {
     "type": "recipe",
     "name": "iron-ore-recycling",
     "localised_name": [
@@ -33674,7 +33674,7 @@
       ]
     }
   },
-  "copper-ore-recycling": {
+  {
     "type": "recipe",
     "name": "copper-ore-recycling",
     "localised_name": [
@@ -33745,7 +33745,7 @@
       ]
     }
   },
-  "iron-plate-recycling": {
+  {
     "type": "recipe",
     "name": "iron-plate-recycling",
     "localised_name": [
@@ -33816,7 +33816,7 @@
       ]
     }
   },
-  "copper-plate-recycling": {
+  {
     "type": "recipe",
     "name": "copper-plate-recycling",
     "localised_name": [
@@ -33887,7 +33887,7 @@
       ]
     }
   },
-  "red-wire-recycling": {
+  {
     "type": "recipe",
     "name": "red-wire-recycling",
     "localised_name": [
@@ -33958,7 +33958,7 @@
       ]
     }
   },
-  "green-wire-recycling": {
+  {
     "type": "recipe",
     "name": "green-wire-recycling",
     "localised_name": [
@@ -34029,7 +34029,7 @@
       ]
     }
   },
-  "copper-wire-recycling": {
+  {
     "type": "recipe",
     "name": "copper-wire-recycling",
     "localised_name": [
@@ -34100,7 +34100,7 @@
       ]
     }
   },
-  "steel-plate-recycling": {
+  {
     "type": "recipe",
     "name": "steel-plate-recycling",
     "localised_name": [
@@ -34171,7 +34171,7 @@
       ]
     }
   },
-  "solid-fuel-recycling": {
+  {
     "type": "recipe",
     "name": "solid-fuel-recycling",
     "localised_name": [
@@ -34242,7 +34242,7 @@
       ]
     }
   },
-  "landfill-recycling": {
+  {
     "type": "recipe",
     "name": "landfill-recycling",
     "localised_name": [
@@ -34313,7 +34313,7 @@
       ]
     }
   },
-  "uranium-ore-recycling": {
+  {
     "type": "recipe",
     "name": "uranium-ore-recycling",
     "localised_name": [
@@ -34384,7 +34384,7 @@
       ]
     }
   },
-  "lane-splitter-recycling": {
+  {
     "type": "recipe",
     "name": "lane-splitter-recycling",
     "localised_name": [
@@ -34463,7 +34463,7 @@
       ]
     }
   },
-  "coin-recycling": {
+  {
     "type": "recipe",
     "name": "coin-recycling",
     "localised_name": [
@@ -34534,7 +34534,7 @@
       ]
     }
   },
-  "sulfur-recycling": {
+  {
     "type": "recipe",
     "name": "sulfur-recycling",
     "localised_name": [
@@ -34605,7 +34605,7 @@
       }
     }
   },
-  "plastic-bar-recycling": {
+  {
     "type": "recipe",
     "name": "plastic-bar-recycling",
     "localised_name": [
@@ -34676,7 +34676,7 @@
       }
     }
   },
-  "explosives-recycling": {
+  {
     "type": "recipe",
     "name": "explosives-recycling",
     "localised_name": [
@@ -34747,7 +34747,7 @@
       }
     }
   },
-  "electric-energy-interface-recycling": {
+  {
     "type": "recipe",
     "name": "electric-energy-interface-recycling",
     "localised_name": [
@@ -34824,7 +34824,7 @@
       ]
     }
   },
-  "uranium-235-recycling": {
+  {
     "type": "recipe",
     "name": "uranium-235-recycling",
     "localised_name": [
@@ -34895,7 +34895,7 @@
       ]
     }
   },
-  "uranium-238-recycling": {
+  {
     "type": "recipe",
     "name": "uranium-238-recycling",
     "localised_name": [
@@ -34966,7 +34966,7 @@
       ]
     }
   },
-  "uranium-fuel-cell-recycling": {
+  {
     "type": "recipe",
     "name": "uranium-fuel-cell-recycling",
     "localised_name": [
@@ -35037,7 +35037,7 @@
       ]
     }
   },
-  "depleted-uranium-fuel-cell-recycling": {
+  {
     "type": "recipe",
     "name": "depleted-uranium-fuel-cell-recycling",
     "localised_name": [
@@ -35108,7 +35108,7 @@
       ]
     }
   },
-  "simple-entity-with-force-recycling": {
+  {
     "type": "recipe",
     "name": "simple-entity-with-force-recycling",
     "localised_name": [
@@ -35179,7 +35179,7 @@
       ]
     }
   },
-  "simple-entity-with-owner-recycling": {
+  {
     "type": "recipe",
     "name": "simple-entity-with-owner-recycling",
     "localised_name": [
@@ -35250,7 +35250,7 @@
       ]
     }
   },
-  "burner-generator-recycling": {
+  {
     "type": "recipe",
     "name": "burner-generator-recycling",
     "localised_name": [
@@ -35321,7 +35321,7 @@
       ]
     }
   },
-  "linked-chest-recycling": {
+  {
     "type": "recipe",
     "name": "linked-chest-recycling",
     "localised_name": [
@@ -35392,7 +35392,7 @@
       ]
     }
   },
-  "linked-belt-recycling": {
+  {
     "type": "recipe",
     "name": "linked-belt-recycling",
     "localised_name": [
@@ -35463,7 +35463,7 @@
       ]
     }
   },
-  "empty-module-slot-recycling": {
+  {
     "type": "recipe",
     "name": "empty-module-slot-recycling",
     "localised_name": [
@@ -35534,7 +35534,7 @@
       ]
     }
   },
-  "science-recycling": {
+  {
     "type": "recipe",
     "name": "science-recycling",
     "localised_name": [
@@ -35606,7 +35606,7 @@
       ]
     }
   },
-  "metallic-asteroid-chunk-recycling": {
+  {
     "type": "recipe",
     "name": "metallic-asteroid-chunk-recycling",
     "localised_name": [
@@ -35677,7 +35677,7 @@
       ]
     }
   },
-  "carbonic-asteroid-chunk-recycling": {
+  {
     "type": "recipe",
     "name": "carbonic-asteroid-chunk-recycling",
     "localised_name": [
@@ -35748,7 +35748,7 @@
       ]
     }
   },
-  "oxide-asteroid-chunk-recycling": {
+  {
     "type": "recipe",
     "name": "oxide-asteroid-chunk-recycling",
     "localised_name": [
@@ -35819,7 +35819,7 @@
       ]
     }
   },
-  "promethium-asteroid-chunk-recycling": {
+  {
     "type": "recipe",
     "name": "promethium-asteroid-chunk-recycling",
     "localised_name": [
@@ -35890,7 +35890,7 @@
       ]
     }
   },
-  "ice-recycling": {
+  {
     "type": "recipe",
     "name": "ice-recycling",
     "localised_name": [
@@ -35961,7 +35961,7 @@
       ]
     }
   },
-  "carbon-recycling": {
+  {
     "type": "recipe",
     "name": "carbon-recycling",
     "localised_name": [
@@ -36032,7 +36032,7 @@
       }
     }
   },
-  "calcite-recycling": {
+  {
     "type": "recipe",
     "name": "calcite-recycling",
     "localised_name": [
@@ -36103,7 +36103,7 @@
       ]
     }
   },
-  "tungsten-ore-recycling": {
+  {
     "type": "recipe",
     "name": "tungsten-ore-recycling",
     "localised_name": [
@@ -36174,7 +36174,7 @@
       ]
     }
   },
-  "tungsten-plate-recycling": {
+  {
     "type": "recipe",
     "name": "tungsten-plate-recycling",
     "localised_name": [
@@ -36245,7 +36245,7 @@
       ]
     }
   },
-  "tungsten-carbide-recycling": {
+  {
     "type": "recipe",
     "name": "tungsten-carbide-recycling",
     "localised_name": [
@@ -36316,7 +36316,7 @@
       ]
     }
   },
-  "copper-bacteria-recycling": {
+  {
     "type": "recipe",
     "name": "copper-bacteria-recycling",
     "localised_name": [
@@ -36375,7 +36375,7 @@
       }
     }
   },
-  "iron-bacteria-recycling": {
+  {
     "type": "recipe",
     "name": "iron-bacteria-recycling",
     "localised_name": [
@@ -36434,7 +36434,7 @@
       }
     }
   },
-  "yumako-seed-recycling": {
+  {
     "type": "recipe",
     "name": "yumako-seed-recycling",
     "localised_name": [
@@ -36505,7 +36505,7 @@
       ]
     }
   },
-  "jellynut-seed-recycling": {
+  {
     "type": "recipe",
     "name": "jellynut-seed-recycling",
     "localised_name": [
@@ -36576,7 +36576,7 @@
       ]
     }
   },
-  "biolab-recycling": {
+  {
     "type": "recipe",
     "name": "biolab-recycling",
     "localised_name": [
@@ -36647,7 +36647,7 @@
       ]
     }
   },
-  "captive-biter-spawner-recycling": {
+  {
     "type": "recipe",
     "name": "captive-biter-spawner-recycling",
     "localised_name": [
@@ -36718,7 +36718,7 @@
       ]
     }
   },
-  "biter-egg-recycling": {
+  {
     "type": "recipe",
     "name": "biter-egg-recycling",
     "localised_name": [
@@ -36789,7 +36789,7 @@
       ]
     }
   },
-  "pentapod-egg-recycling": {
+  {
     "type": "recipe",
     "name": "pentapod-egg-recycling",
     "localised_name": [
@@ -36848,7 +36848,7 @@
       }
     }
   },
-  "carbon-fiber-recycling": {
+  {
     "type": "recipe",
     "name": "carbon-fiber-recycling",
     "localised_name": [
@@ -36907,7 +36907,7 @@
       }
     }
   },
-  "holmium-ore-recycling": {
+  {
     "type": "recipe",
     "name": "holmium-ore-recycling",
     "localised_name": [
@@ -36978,7 +36978,7 @@
       ]
     }
   },
-  "holmium-plate-recycling": {
+  {
     "type": "recipe",
     "name": "holmium-plate-recycling",
     "localised_name": [
@@ -37049,7 +37049,7 @@
       ]
     }
   },
-  "lithium-recycling": {
+  {
     "type": "recipe",
     "name": "lithium-recycling",
     "localised_name": [
@@ -37120,7 +37120,7 @@
       }
     }
   },
-  "lithium-plate-recycling": {
+  {
     "type": "recipe",
     "name": "lithium-plate-recycling",
     "localised_name": [
@@ -37191,7 +37191,7 @@
       ]
     }
   },
-  "superconductor-recycling": {
+  {
     "type": "recipe",
     "name": "superconductor-recycling",
     "localised_name": [
@@ -37262,7 +37262,7 @@
       ]
     }
   },
-  "fusion-power-cell-recycling": {
+  {
     "type": "recipe",
     "name": "fusion-power-cell-recycling",
     "localised_name": [
@@ -37333,7 +37333,7 @@
       }
     }
   },
-  "spoilage-recycling": {
+  {
     "type": "recipe",
     "name": "spoilage-recycling",
     "localised_name": [
@@ -37404,7 +37404,7 @@
       ]
     }
   },
-  "space-platform-hub-recycling": {
+  {
     "type": "recipe",
     "name": "space-platform-hub-recycling",
     "localised_name": [
@@ -37475,7 +37475,7 @@
       ]
     }
   },
-  "tree-seed-recycling": {
+  {
     "type": "recipe",
     "name": "tree-seed-recycling",
     "localised_name": [
@@ -37546,7 +37546,7 @@
       ]
     }
   },
-  "selection-tool-recycling": {
+  {
     "type": "recipe",
     "name": "selection-tool-recycling",
     "localised_name": [
@@ -37617,7 +37617,7 @@
       ]
     }
   },
-  "spidertron-remote-recycling": {
+  {
     "type": "recipe",
     "name": "spidertron-remote-recycling",
     "localised_name": [
@@ -37688,7 +37688,7 @@
       ]
     }
   },
-  "automation-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "automation-science-pack-recycling",
     "localised_name": [
@@ -37747,7 +37747,7 @@
       }
     }
   },
-  "logistic-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "logistic-science-pack-recycling",
     "localised_name": [
@@ -37806,7 +37806,7 @@
       }
     }
   },
-  "chemical-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "chemical-science-pack-recycling",
     "localised_name": [
@@ -37865,7 +37865,7 @@
       }
     }
   },
-  "military-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "military-science-pack-recycling",
     "localised_name": [
@@ -37924,7 +37924,7 @@
       }
     }
   },
-  "production-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "production-science-pack-recycling",
     "localised_name": [
@@ -37983,7 +37983,7 @@
       }
     }
   },
-  "utility-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "utility-science-pack-recycling",
     "localised_name": [
@@ -38042,7 +38042,7 @@
       }
     }
   },
-  "space-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "space-science-pack-recycling",
     "localised_name": [
@@ -38113,7 +38113,7 @@
       ]
     }
   },
-  "metallurgic-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "metallurgic-science-pack-recycling",
     "localised_name": [
@@ -38184,7 +38184,7 @@
       ]
     }
   },
-  "electromagnetic-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "electromagnetic-science-pack-recycling",
     "localised_name": [
@@ -38255,7 +38255,7 @@
       ]
     }
   },
-  "agricultural-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "agricultural-science-pack-recycling",
     "localised_name": [
@@ -38314,7 +38314,7 @@
       ]
     }
   },
-  "cryogenic-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "cryogenic-science-pack-recycling",
     "localised_name": [
@@ -38385,7 +38385,7 @@
       }
     }
   },
-  "promethium-science-pack-recycling": {
+  {
     "type": "recipe",
     "name": "promethium-science-pack-recycling",
     "localised_name": [
@@ -38456,7 +38456,7 @@
       }
     }
   },
-  "upgrade-planner-recycling": {
+  {
     "type": "recipe",
     "name": "upgrade-planner-recycling",
     "localised_name": [
@@ -38527,4 +38527,4 @@
       ]
     }
   }
-}
+]

@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-use super::constant_combinator::ConstantCombinator;
+use super::{constant_combinator::ConstantCombinator, Recipe};
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct Blueprint {

@@ -1,0 +1,357 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "control_behavior": {
+                    "sections": {
+                        "sections": [
+                            {
+                                "active": true,
+                                "filters": [
+                                    {
+                                        "comparator": "=",
+                                        "count": 50,
+                                        "index": 0,
+                                        "name": "sulfuric-acid",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 1,
+                                        "name": "plastic-bar",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 2,
+                                        "name": "sulfur",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 3,
+                                        "name": "lubricant",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 4,
+                                        "name": "iron-stick",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 5,
+                                        "name": "transport-belt",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 6,
+                                        "name": "copper-cable",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 7,
+                                        "name": "small-electric-pole",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 8,
+                                        "name": "pipe-to-ground",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 9,
+                                        "name": "underground-belt",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 10,
+                                        "name": "fast-underground-belt",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 11,
+                                        "name": "concrete",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 12,
+                                        "name": "hazard-concrete",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 13,
+                                        "name": "refined-concrete",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 14,
+                                        "name": "refined-hazard-concrete",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 15,
+                                        "name": "rail",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 4,
+                                        "index": 16,
+                                        "name": "land-mine",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 17,
+                                        "name": "chemical-science-pack",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 18,
+                                        "name": "military-science-pack",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 3,
+                                        "index": 19,
+                                        "name": "production-science-pack",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 3,
+                                        "index": 20,
+                                        "name": "utility-science-pack",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 21,
+                                        "name": "express-underground-belt",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 22,
+                                        "name": "explosives",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 23,
+                                        "name": "uranium-fuel-cell",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 24,
+                                        "name": "artificial-yumako-soil",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 25,
+                                        "name": "artificial-jellynut-soil",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 26,
+                                        "name": "pentapod-egg",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 4,
+                                        "index": 27,
+                                        "name": "bioflux",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 5,
+                                        "index": 28,
+                                        "name": "space-science-pack",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 75,
+                                        "index": 29,
+                                        "name": "thruster-fuel",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 75,
+                                        "index": 30,
+                                        "name": "thruster-oxidizer",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 500,
+                                        "index": 31,
+                                        "name": "molten-iron",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 500,
+                                        "index": 32,
+                                        "name": "molten-copper",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 33,
+                                        "name": "turbo-underground-belt",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 5,
+                                        "index": 34,
+                                        "name": "biter-egg",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 100,
+                                        "index": 35,
+                                        "name": "holmium-solution",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 2,
+                                        "index": 36,
+                                        "name": "superconductor",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 37,
+                                        "name": "electrolyte",
+                                        "quality": "normal",
+                                        "type": "fluid"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 5,
+                                        "index": 38,
+                                        "name": "lithium",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    },
+                                    {
+                                        "comparator": "=",
+                                        "count": 10,
+                                        "index": 39,
+                                        "name": "promethium-science-pack",
+                                        "quality": "normal",
+                                        "type": "item"
+                                    }
+                                ],
+                                "index": 0
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 1,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "signal-info",
+                    "type": "virtual"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "version": 562949954928640
+    }
+}

@@ -21,7 +21,7 @@ impl ConstantCombinator {
     }
 
     pub fn push_section(&mut self, section: Section) {
-        let idx = self.sections().len();
+        let idx = self.sections().len()+1;
         self.sections_mut().push(section.with_index(idx as u8));
     }
 
@@ -74,7 +74,7 @@ impl ControlBehavior {
         &self.sections.sections
     }
     fn push_section(&mut self, section: Section) {
-        let idx = self.sections.sections.len();
+        let idx = self.sections.sections.len()+1;
         self.sections.sections.push(section.with_index(idx as u8));
     }
     pub fn with_sections(sections: Vec<Section>) -> Self {
@@ -85,7 +85,7 @@ impl ControlBehavior {
 }
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
-struct Sections {
+pub struct Sections {
     sections: Vec<Section>
 }
 
@@ -118,6 +118,15 @@ impl Section {
             group: None,
             multiplier: None,
         }
+    }
+
+    pub fn push_signal(&mut self, signal: (String, String, f64)) {
+        let index = self.filters.len()+1;
+        self.filters.push(LogisticFilter::new(index as u16, signal.0, signal.2 as usize, Quality::Normal).with_signal_type(match signal.1.as_str() {
+            "item" => SignalType::Item,
+            "fluid" => SignalType::Fluid,
+            _ => panic!("Wrong item type")
+        }));
     }
 
     pub fn deactivate(self) -> Self {
